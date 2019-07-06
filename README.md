@@ -8,3 +8,4 @@
 - 2019-07-03 [Redux vs Apollo ..?](https://github.com/sukjae/daily-study/blob/master/2019-07-03.md)
 - 2019-07-04 [OpsWork+Chef+CloudFormation+.. 어떻게 서로 조화를 이루나](https://github.com/sukjae/daily-study/blob/master/2019-07-04.md)
 - 2019-07-05 [기업의 불합격 통보는 아무 영양가 없다.](https://github.com/sukjae/daily-study/blob/master/2019-07-05.md)
+- 2019-07-06 [함수형 프로그래밍에서 currying이 갖는 장점](https://github.com/sukjae/daily-study/blob/master/2019-07-06.md)

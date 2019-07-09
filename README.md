@@ -11,3 +11,4 @@
 - 2019-07-06 [함수형 프로그래밍에서 currying이 갖는 장점](https://github.com/sukjae/daily-study/blob/master/2019-07-06.md)
 - 2019-07-07 [SAGA의 필요성과 특징 ](https://github.com/sukjae/daily-study/blob/master/2019-07-07.md)
 - 2019-07-08 [Just Enough Functional Programming - 1탄](https://github.com/sukjae/daily-study/blob/master/2019-07-08.md)
+- 2019-07-09 [Just Enough Functional Programming - 2탄](https://github.com/sukjae/daily-study/blob/master/2019-07-09.md)

@@ -17,3 +17,4 @@
 - 2019-07-11 [Just Enough Functional Programming - 3탄](https://github.com/sukjae/daily-study/blob/master/2019-07-11.md)
 - 2019-07-12 [ReactJS:: props.render vs props.children vs HOC](https://github.com/sukjae/daily-study/blob/master/2019-07-12.md)
 - 2019-07-13 [bash_profile 와 zsh에 관한 글](https://github.com/sukjae/daily-study/blob/master/2019-07-13.md)
+- 2019-07-14 [JS 이해하기 [JS, nodeJS, V8, Libuv]-1탄](https://github.com/sukjae/daily-study/blob/master/2019-07-14.md)

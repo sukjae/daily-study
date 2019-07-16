@@ -23,3 +23,4 @@
 
 - [0 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/README.md)
 - [1 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-1.md)
+- [2 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-2.md)

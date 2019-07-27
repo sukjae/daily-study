@@ -20,6 +20,7 @@
 - 2019-07-14 [JS 이해하기 [JS, nodeJS, V8, Libuv]-1탄](https://github.com/sukjae/daily-study/blob/master/2019-07-14.md)
 - 2019-07-20 [Js에서 composition over inheritance가 뜻 하는게 무엇일까](https://github.com/sukjae/daily-study/blob/master/2019-07-20.md)
 - 2019-07-21 [prototype과 __proto__에 대한 간단한 생각 정리](https://github.com/sukjae/daily-study/blob/master/2019-07-21.md)
+- 2019-07-21 [JS에서 Spread syntax는 shallow copy일까 deep copy 일까](https://github.com/sukjae/daily-study/blob/master/2019-07-27.md)
 
 ## 부스트 캠프
 

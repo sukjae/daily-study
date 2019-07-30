@@ -38,4 +38,5 @@
 - [9 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-9.md)
 - [10 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-10.md)
 - [11 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-11.md)
+- [12 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-12.md)
 

@@ -23,7 +23,7 @@ Date | Content
 2019-07-21 | [prototype과 __proto__에 대한 간단한 생각 정리](https://github.com/sukjae/daily-study/blob/master/2019-07-21.md)
 2019-07-27 | [JS에서 Spread syntax는 shallow copy일까 deep copy 일까](https://github.com/sukjae/daily-study/blob/master/2019-07-27.md)
 2019-07-28 | [ReactJS에서의 styled-jsx](https://github.com/sukjae/daily-study/blob/master/2019-07-28.md)
-
+2019-08-01 | [ReactJS 와 HTML canvas 사용하여 사진 위에 그림 그리기](https://github.com/sukjae/daily-study/blob/master/2019-08-01.md)
 
 ## 부스트 캠프
 

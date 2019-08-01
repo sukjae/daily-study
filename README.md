@@ -1,7 +1,7 @@
 # daily-study
 > 매일 매일 학습한 내용을 기록합니다.
 
-## 목차
+## 개인 학습
 
 Date | Content
 -----|--------
@@ -35,18 +35,18 @@ Date | Content
 
 Date | Keyword
 -----|--------
-[0 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/README.md) | 나의 다짐
-[1 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-1.md) | Jest, JSDoc, TypeScript, ESLint, Linter
-[2 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-2.md) | 로그를 쌓는 방법에 대한 고민
-[3 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-3.md) | thorw & try catch, reduce, Jest, arrow function
-[4 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-4.md) | 극단적으로 코드 줄이기
-[5 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-5.md) | 가정의 오류, 마스터님의 Q&A
-[6 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-6.md) | 디버깅
-[7 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-7.md) | TDD, 함수형 코드 사용기
-[8 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-8.md) | Immutable vs Mutable, Docker, Shell scripting
-[9 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-9.md) | Observable, 소통의 중요성
-[10 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-10.md) | Immutable, 페어프로그래밍, 마스터님의 Q&A
-[11 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-11.md) | 매개변수, 값 복사
-[12 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-12.md) | async/await, Jest, 구조와 로직, Immutable
-[13 일차](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-13.md) | Model & Controller, 위치 메서드, JS의 배열, 비동기
+0 일차 | [나의 다짐](https://github.com/sukjae/daily-study/blob/master/boost-camp/README.md)
+1 일차 | [Jest, JSDoc, TypeScript, ESLint, Linter](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-1.md)
+2 일차 | [로그를 쌓는 방법에 대한 고민](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-2.md)
+3 일차 | [thorw & try catch, reduce, Jest, arrow function](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-3.md)
+4 일차 | [극단적으로 코드 줄이기](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-4.md)
+5 일차 | [가정의 오류, 마스터님의 Q&A](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-5.md)
+6 일차 | [디버깅](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-6.md)
+7 일차 | [TDD, 함수형 코드 사용기](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-7.md)
+8 일차 | [Immutable vs Mutable, Docker, Shell scripting](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-8.md)
+9 일차 | [Observable, 소통의 중요성](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-9.md)
+10 일차 | [Immutable, 페어프로그래밍, 마스터님의 Q&A](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-10.md)
+11 일차 | [매개변수, 값 복사](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-11.md)
+12 일차 | [async/await, Jest, 구조와 로직, Immutable](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-12.md)
+13 일차 | [Model & Controller, 위치 메서드, JS의 배열, 비동기](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-13.md)
 

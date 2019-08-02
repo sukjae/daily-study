@@ -50,3 +50,4 @@ Date | Keyword
 12 일차 | [async/await, Jest, 구조와 로직, Immutable](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-12.md)
 13 일차 | [Model & Controller, 위치 메서드, JS의 배열, 비동기](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-13.md)
 14 일차 | [canvas](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-14.md)
+15 일차 | [canvas api & canvas element -vs- node-canvas](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-15.md)

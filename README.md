@@ -24,6 +24,7 @@ Date | Content
 2019-07-27 | [JS에서 Spread syntax는 shallow copy일까 deep copy 일까](https://github.com/sukjae/daily-study/blob/master/2019-07-27.md)
 2019-07-28 | [ReactJS에서의 styled-jsx](https://github.com/sukjae/daily-study/blob/master/2019-07-28.md)
 2019-08-01 | [ReactJS 와 HTML canvas 사용하여 사진 위에 그림 그리기](https://github.com/sukjae/daily-study/blob/master/2019-08-01.md)
+2019-08-03 | [fork한 repo, 원본의 변화에 동기화 하기](https://github.com/sukjae/daily-study/blob/master/2019-08-03.md)
 
 ## 부스트 캠프
 

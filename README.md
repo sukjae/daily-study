@@ -25,9 +25,9 @@ Date | Content
 2019-07-28 | [ReactJS에서의 styled-jsx](https://github.com/sukjae/daily-study/blob/master/2019-07-28.md)
 2019-08-01 | [ReactJS 와 HTML canvas 사용하여 사진 위에 그림 그리기](https://github.com/sukjae/daily-study/blob/master/2019-08-01.md)
 2019-08-03 | [fork한 repo, 원본의 변화에 동기화 하기](https://github.com/sukjae/daily-study/blob/master/2019-08-03.md)
-2019-08-04 | [JS의 switch-case에서 block단위 처리 방법](https://github.com/sukjae/daily-study/blob/master/2019-08-04.md)
-2019-08-04 | [Conditional rendering 에서 empty component는 어떻게 처리할까?](https://github.com/sukjae/daily-study/blob/master/2019-08-04-02.md)
-2019-08-04 | [React에서 Redux사용시 local state를 사용하면 안되나?](https://github.com/sukjae/daily-study/blob/master/2019-08-04-03.md)
+2019-08-04 | [JS의 switch-case에서 block단위 처리 방법](https://github.com/sukjae/daily-study/blob/master/2019-08-04-01.md)
+2019-08-04 | [Conditional rendering 에서 empty component는 어떻게 처리할까?](https://github.com/sukjae/daily-study/blob/master/2019-08-04-2.md)
+2019-08-04 | [React에서 Redux사용시 local state를 사용하면 안되나?](https://github.com/sukjae/daily-study/blob/master/2019-08-04-3.md)
 
 ## 부스트 캠프
 

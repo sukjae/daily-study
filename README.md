@@ -55,4 +55,4 @@ Date | Keyword
 13 일차 | [Model & Controller, 위치 메서드, JS의 배열, 비동기](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-13.md)
 14 일차 | [canvas](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-14.md)
 15 일차 | [canvas api & canvas element -vs- node-canvas](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-15.md)
-16 일차 | [좋은 회사에 대한 기준, 구현에 앞서 고민을 많이 ](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-16.md)
+16 일차 | [좋은 회사에 대한 기준, 구현에 앞서 고민을 많이 하자 ](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-16.md)

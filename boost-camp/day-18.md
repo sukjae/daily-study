@@ -104,7 +104,7 @@ idleBarista.push(barista); // 현재 worker를 idleBarista로 추가합니다.
 결국 3번의 로직으로 진행 하였다. 
 
 ![](https://github.com/sukjae/daily-study/blob/master/boost-camp/day18-1.jpg)
-![](https://github.com/sukjae/daily-study/blob/master/boost-camp/day18-2.jpg)
+![](https://github.com/sukjae/daily-study/blob/master/boost-camp/day18.jpg)
 
 ## 회고
 

@@ -12,14 +12,15 @@
 - 필요시에 idle한 worker를 제공할 수 있습니다.
 - 또한 이렇게 분리시에, workingPool에 존재하는 worker가 임의의 이유로 강제로 terminate시켜야 할 경우, 바로 제거가 가능합니다.
 
-    //...
-    postMessage(sucess); // 작업을 시작하고
-    
-    const idx = workingBarista.indexOf(barista); // 현재 worker의 index찾고
-    
-    workingBarista.splice(idx, 1); // 현재 worker를 workingBarista에서 분리한 뒤
-     
-    idleBarista.push(barista); // 현재 worker를 idleBarista로 추가합니다.
+```js
+postMessage(sucess); // 작업을 시작하고
+
+const idx = workingBarista.indexOf(barista); // 현재 worker의 index찾고
+
+workingBarista.splice(idx, 1); // 현재 worker를 workingBarista에서 분리한 뒤
+
+idleBarista.push(barista); // 현재 worker를 idleBarista로 추가합니다.
+```
 
 ### [setTimeout 내부 동작 방식]
 

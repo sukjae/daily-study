@@ -58,3 +58,4 @@ Date | Keyword
 16 일차 | [좋은 회사에 대한 기준, 구현에 앞서 고민을 많이 하자 ](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-16.md)
 17 일차 | [Web Worker, 브라우저에서의 멀티 쓰레딩](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-17.md)
 18 일차 | [NodeJS Event Emitter](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-18.md)
+19 일차 | [URL, 나에 대한 반성](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-19/day-19-18388f84-8ba7-45ab-84df-37dcf7307f6d.md)

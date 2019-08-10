@@ -28,6 +28,8 @@ Date | Content
 2019-08-04 | [JS의 switch-case에서 block단위 처리 방법](https://github.com/sukjae/daily-study/blob/master/2019-08-04-1.md)
 2019-08-04 | [Conditional rendering 에서 empty component는 어떻게 처리할까?](https://github.com/sukjae/daily-study/blob/master/2019-08-04-2.md)
 2019-08-04 | [React에서 Redux사용시 local state를 사용하면 안되나?](https://github.com/sukjae/daily-study/blob/master/2019-08-04-3.md)
+2019-08-10 | [Lambda에서 API-Gateway로 넘겨받은 post의 body읽기](https://github.com/sukjae/daily-study/blob/master/2019-08-10.md)
+
 
 ## 부스트 캠프
 

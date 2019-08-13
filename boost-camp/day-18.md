@@ -2,26 +2,6 @@
 
 ## 피어 세션 중 생각 정리
 
-### [작업중인 쓰레드 죽이기]
-
-- Worker pool을 하나의 배열로 관리하면, 쓰레드를 제거해야 할 때 어떤 쓰레드를 제거할지 알기 어렵습니다.
-- 저는 workingPool(`workingBarista`)과 더불어 idlePool(`idleBarista`)를 생성하여 구분하였습니다.
-- 기본적으로 idlePool에 생성된 모든 Worker가 저장되며,
-- queue에서 FIFO의 순서에 따라 필요시마다 idlePool->workingPool로 worker가 이동합니다.
-- 주기적으로 idle한 worker를 파악하여 작업을 제공하며
-- 필요시에 idle한 worker를 제공할 수 있습니다.
-- 또한 이렇게 분리시에, workingPool에 존재하는 worker가 임의의 이유로 강제로 terminate시켜야 할 경우, 바로 제거가 가능합니다.
-
-```js
-postMessage(sucess); // 작업을 시작하고
-
-const idx = workingBarista.indexOf(barista); // 현재 worker의 index찾고
-
-workingBarista.splice(idx, 1); // 현재 worker를 workingBarista에서 분리한 뒤
-
-idleBarista.push(barista); // 현재 worker를 idleBarista로 추가합니다.
-```
-
 ### [setTimeout 내부 동작 방식]
 
 - setTimeout의 동작 방식은 JS를 실행하는 엔진의 구현방식에 따라 상이합니다.

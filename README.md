@@ -32,6 +32,7 @@ Date | Content
 2019-08-11 | [Normalizr, 객체(JSON) 분해하기](https://github.com/sukjae/daily-study/blob/master/2019-08-11.md)
 2019-08-12 | [Redux-Thunk에 대한 생각 정리](https://github.com/sukjae/daily-study/blob/master/2019-08-12.md)
 2019-08-13 | [간단한 리펙토링, filter대신 map으로!](https://github.com/sukjae/daily-study/blob/master/2019-08-13.md)
+2019-08-15 | [Netlify & Netlify CMS](https://github.com/sukjae/daily-study/blob/master/2019-08-15.md)
 
 ## 부스트 캠프
 

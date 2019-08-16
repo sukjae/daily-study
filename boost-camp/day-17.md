@@ -7,10 +7,6 @@
 - type array 를 제외한 모든 type은 child:[] 를 갖지 않는다.
     - 이렇게 하는게 조금 더 자연스러운것 같다.
     - array는 child를 갖을 수 있지만, 나머지 자료형은 child를 갖을 수 없다.
-- 전체 파일구조는 Compiler 폴더안에
-    - tokenizer, lexer, parser 에 대한 파일이 각각 존재.
-    - 각각의 기능에 대해 .test.js 확장자로 테스트 파일이 존재.
-    - Compiler/index.js 를 통해 통합하여, 통합 테스트 파일이 존재.
 - 재귀를 사용하지 않는다.
     - 가정에서 배열이 무한 중첩된 형태도 해석되야 하는데,
     - 재귀가 너무 많이 쌓이게 되면 메모리가 터질것 같았다.
@@ -31,12 +27,6 @@
     - JS엔진을 구현한 브라우저 별로 Max Call Stack size가 존재한다.
     - 재귀를 사용하여 무한으로 중첩된 구조를 처리한다면, max call stack size를 넘어 애플리케이션이 뻗을 수 있다.
 
-### [token, lexer, parser]
-
-- 아래 `다같이 확인할 사항`에 서술된 방식으로 역할을 분리하여 구현을 하였다.
-- 각각의 단계의 결과가 연쇄적으로 다음 기능에 반영되어 결과를 제공한다.
-- 기능의 분리와 통합 을 통하여 각각의 테스트를 용이하게 생성할 수 있었다.
-
 ### [에러처리에 대한 흐름제어]
 
 - `throw new Error()`와 `try-catch`를 활용하여 실제 사용자가 에러로 인해 프로그램 종료가 발생하는 상황을 방지 하였다.
@@ -44,62 +34,6 @@
 
 ## 컴파일러 구조와 나의 구현에 대한 고민
 
-### [Compiler와 분석기에서 token, lexer, parser의 역할]
-
-- 학습한 내용에 따르면, Compiler의 Front-end 라 불리는 구조에서 위의 세 기능이 사용된다.
-- Compiler의 분석기를 모방하는 상황에서 실제 구성요소와 용도를 참고함이 적합하다.
-- 실제 Compiler의 구조에서는 다음과 같은 특징이 있다.
-
-    ### [Tokenizer와 Lexer]
-
-    - `Tokenizer`와 `Lexer`를 동일시 보기도 한다.
-    - 실제 `Tokenizer`은 input stream을 Lexemes로 분리한다.
-    - 분리된 개별적인 Lexemes를 token으로 변화하며 이 과정에서 token의 type을 식별한다.
-    - 최종적으로 처리된 token을 다음 단계인 parser로 전달한다
-
-    ### [Parser]
-
-    - `Parser`은 `Tokenizer`로 부터 전달받은 token에서 language grammer을 이해한다.
-    - 이후 internal `data structure`을 생성한다.
-    - 이 `data structure`은 `Parse Tree`나 `Intermediate code representation`이라고도 불린다.
-    - 이 `Parse Tree`는 언어에 독립적이다.
-
-    ### [정리]
-
-    - 결과적으로 Tokenizer(Lexer) + Parser는 Front-end라 불리고,
-    - 여기서 생성된 데이터를 `Intermediate code representation`로 보낸뒤,
-    - 다시 `back-end`로 보냄으로서 처리가 마무리 된다.
-
-### [구현한 코드에서 token, lexer, parser의 역할]
-
-- 이번에 구현한 코드는 간단한 문법 분석기로서
-- type이나 symbol의 종류에 제약을 주어 구현을 용이하게 하였다.
-
-    ### [Tokenizer]
-
-    - 받아온 String을 한 Char 단위로 끊어서 해석한다.
-    - 체크한 symbol은 `[`, `]`,`,` 이렇게 세가지 이다.
-    - ',' 사이에는 공백이 존재할 수 있으므로 trim 하지만, '"' 사이에는 공백을 유지한다.
-    - 구조가 완전하지 않아 생기는 에러는 여기서 방출된다
-    - 결과적으로 string을 받아 구분되는 배열을 반환한다
-
-    ### [Lexer]
-
-    - Tokenizer에서 전달받은 배열에 의미를 추가한다.
-    - Tokenizer에서 구분한 symbol과 data를 상황에 따라 분기하여 의미를 갖는 객체로 변환한다.
-    - 결과적으로 배열을 받아 객체를 포함하는 1차원 배열을 반환한다.
-
-    ### [Parser]
-
-    - Lexer 로부터 전달받은 1차원 정보 배열을 통하여 우리가 원하는 구조로 변환한다.
-    - 위의 compiler예시에서 데이터의 `data structure`(`Parse Tree`나 `Intermediate code representation` 로도 불림)로의 변환 단계이다.
-    - 이를 통하여 Back end(우리의 상황에서는 사용자)가 해석할 수 있는 형태의 규약된(통일된) 구조로 변환한다.
-    - 우리의 경우에는 객체로 Tree와 비슷한 형태로 1차원 배열을 변환 하였다.
-
-    ### [Compiler (사실은 전체 Compiler에서 Front-End 부분)]
-
-    - Tokenizer,Lexer,Parser 를 순차적으로 실행한다.
-    - 결과적으로 String을 받아 객체의 tree형태로 반환한다.
 
 ## 챌린지 중 느낀것
 
@@ -112,8 +46,6 @@
 미션 수행과 학습에 대한 밸런스를 맞추기 위해 오늘도 4시쯤 과제를 시작하였다. 
 
 오늘과  같은 복잡한 미션을 수행하기 앞서 그림을 그리고 생각의 흐름을 작성하는게 도움이 될듯 하여 다음과 같이 구조를 짜 봤다. 
-
-![](./day-17.JPG)
 
 그렇게 복잡한 구조는 아니지만, 이를 통하여 내가 나눠야 할 부분들이 명확하게 보였고, 기능의 분리를 할 수 있었다. 
 

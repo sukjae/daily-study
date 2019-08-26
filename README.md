@@ -34,7 +34,7 @@ Date | Content
 2019-08-13 | [간단한 리펙토링, filter대신 map으로!](https://github.com/sukjae/daily-study/blob/master/2019-08-13.md)
 2019-08-15 | [Netlify & Netlify CMS](https://github.com/sukjae/daily-study/blob/master/2019-08-15.md)
 
-## 부스트 캠프
+## 부스트 캠프 챌린지
 
 > 다음과 같은 내용을 포함하고 있습니다
 - 서로의 코드를 리뷰하는 **[피어세션]**
@@ -65,3 +65,18 @@ Date | Keyword
 18 일차 | [NodeJS Event Emitter](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-18.md)
 19 일차 | [URL, 나에 대한 반성](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-19/day-19-18388f84-8ba7-45ab-84df-37dcf7307f6d.md)
 20 일차 | [챌린지 과정 마지막 날](https://github.com/sukjae/daily-study/blob/master/boost-camp/day-20.md)
+
+
+## 부스트 캠프 멤버십
+- 짧은 개발 iteration과 집중 학습
+- 단기간내 집중적으로 실무 프로젝트 개발 과제를 수행하는데 필요한 내용을 스스로 학습
+
+> 다음과 같은 내용을 포함하고 있습니다
+- 프로젝트 기반으로 웹 프론트엔드/백엔드를 학습하는 **[학습 스프린트]**
+- 현업 개발 환경과 유사한 팀 단위의 웹 서비스 프로젝트를 수행하는 **[그룹 프로젝트]**
+- 위 과정들을 진행하며, 학습한 내용과 느낀점을 정리
+
+Date | Keyword
+-----|--------
+0 일차 | [나의 다짐](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/README.md)
+1 일차 | [페어 프로그래밍](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-1.md)

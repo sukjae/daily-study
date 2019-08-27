@@ -79,4 +79,5 @@ Date | Keyword
 Date | Keyword
 -----|--------
 0 일차 | [나의 다짐](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/README.md)
-1 일차 | [페어 프로그래밍](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-1.md)
+1 일차 | [페어 프로그래밍](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-1.md) 
+2 일차 | [코드리뷰, 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-2/day-2.md)

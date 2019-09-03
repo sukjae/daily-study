@@ -83,3 +83,4 @@ Date | Keyword
 2 일차 | [코드리뷰, 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-2/day-2.md)
 3 일차 | [스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-3.md)
 4 일차 | [또 다시 스크럼, 컨디션 조절](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-4/day-4.md)
+7 일차 | [1주차 프로젝트 회고](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-7.md)

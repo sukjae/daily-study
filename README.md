@@ -33,6 +33,8 @@
 | 2019-08-12 | [Redux-Thunk에 대한 생각 정리](https://github.com/sukjae/daily-study/blob/master/2019-08-12.md)                                 |
 | 2019-08-13 | [간단한 리펙토링, filter대신 map으로!](https://github.com/sukjae/daily-study/blob/master/2019-08-13.md)                             |
 | 2019-08-15 | [Netlify & Netlify CMS](https://github.com/sukjae/daily-study/blob/master/2019-08-15.md)                                 |
+| 2019-08-20 | [Github Markdown에서 이미지 크기 조절하는 방법](https://github.com/sukjae/daily-study/blob/master/2019-08-20.md)                      |
+| 2019-09-15 | [AWS SAM 에서의 Update, 불사조 서버](https://github.com/sukjae/daily-study/blob/master/2019-09-15.md)                            |
 
 ## 부스트 캠프 챌린지
 

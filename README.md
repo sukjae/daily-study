@@ -78,14 +78,15 @@
 - 현업 개발 환경과 유사한 팀 단위의 웹 서비스 프로젝트를 수행하는 **[그룹 프로젝트]**
 - 위 과정들을 진행하며, 학습한 내용과 느낀점을 정리
 
-| Date  | Keyword                                                                                                               |
-| ----- | --------------------------------------------------------------------------------------------------------------------- |
-| 0 일차  | [나의 다짐](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/README.md)                             |
-| 1 일차  | [페어 프로그래밍](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-1.md)                           |
-| 2 일차  | [코드리뷰, 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-2/day-2.md)                    |
-| 3 일차  | [스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-3.md)                                |
-| 4 일차  | [또 다시 스크럼, 컨디션 조절](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-4/day-4.md)             |
-| 7 일차  | [1주차 프로젝트 회고](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-7.md)                        |
-| 8 일차  | [마스터 클래스, OAuth2.0, commit message ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-8.md) |
-| 9 일차  | [ExpressJS testing, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-9.md)     |
-| 10 일차 | [ Jest Testing, 스크럼, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-10.md)   |
+| Date  | Keyword                                                                                                                    |
+| ----- | -------------------------------------------------------------------------------------------------------------------------- |
+| 0 일차  | [나의 다짐](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/README.md)                                  |
+| 1 일차  | [페어 프로그래밍](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-1.md)                                |
+| 2 일차  | [코드리뷰, 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-2/day-2.md)                         |
+| 3 일차  | [스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-3.md)                                     |
+| 4 일차  | [또 다시 스크럼, 컨디션 조절](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-4/day-4.md)                  |
+| 7 일차  | [1주차 프로젝트 회고](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-7.md)                             |
+| 8 일차  | [마스터 클래스, OAuth2.0, commit message ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-8.md)      |
+| 9 일차  | [ExpressJS testing, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-9.md)          |
+| 10 일차 | [ Jest Testing, 스크럼, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-10.md)        |
+| 13 일차 | [ Jest Testing, 스크럼, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-13/day-13.md) |

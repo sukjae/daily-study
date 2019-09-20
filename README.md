@@ -90,3 +90,4 @@
 | 9 일차  | [ExpressJS testing, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-9.md)     |
 | 10 일차 | [ Jest Testing, 스크럼, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-10.md)   |
 | 13 일차 | [ CustomEvent, Event ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-13/day-13.md)       |
+| 17 일차 | [ 프로젝트를 완성하지 못한 이유 ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-17.md)                |

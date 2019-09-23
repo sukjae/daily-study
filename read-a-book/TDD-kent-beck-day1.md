@@ -1,6 +1,5 @@
-|       |                                     |
-| ----- | ----------------------------------- |
 | 원제    | Test Driven Development: by example |
+| ----- | ----------------------------------- |
 | 제목    | 테스트 주도 개발                           |
 | 저자    | Kent Beck                           |
 | ISBN  | 9788966261024                       |
@@ -50,7 +49,23 @@ int amount = 5 * 2;
 - 객체의 인스턴스 변수가 생성자를 통해서 일단 설정된 후에는 결코 변하지 않도록 한다. 
 - 독립된 값을 갖음을 보장한다. (어찌보면, private과 같은 느낌, 그러나 값이 변할 수 없는 의미에서 const와도 비슷한 느낌)
 
+### TDD에서의 삼각측량
+- 책에서 이 부분에 대한 설명은 매우 부족했다. 뒷 부분에 다뤄질지 모르지만, TDD의 핵심 전략임에도 앞에서 다뤄지는 내용이 너무 적었다. 
+- 이 부분에 대해서 다른 블로그들을 검색하였고, 그 중에서 가장 그럴사한 내용을 정리하였다. 
+  
+> Indirect measurement: Derive the design from few known examples of its desired external behavior by looking at what varies in these examples and making this variability into something more general
 
+> Using at least two sources of information: start with the simplest possible implementation and make it more general only when you have two or more examples
+
+[출처:feelings-erased](http://feelings-erased.blogspot.com/2013/03/the-two-main-techniques-in-test-driven.html#targetText=Kent%20describes%20triangulation%20as%20the,the%20position%20of%20a%20unit.)
+
+위 내용들로 내가 받은 느낌은 다음과 같다. 
+
+테스트를 작성해야 하는데, 명확한(일반적인) 테스트 케이스와 구현해야 할 모델이 명확히 보이지 않을때 주로 사용하는것 같다. 
+
+모델의 잘 알려진 일반적인 결과들(예를 들어, 1+1은 2임을 많이들 안다)을 통하여 간접적으로 보다 일반적인 모델을 찾아가는 과정인것 같다.
+
+또, 이를 위해서 하나의 큰 일반적인 사실만을 사용하는게 아니라, 가장 작은 단위의 정보들(일반적인 결과들)을 두개 이상 조합하여 일반적인 모델과 테스트 케이스를 만드는것을 목표로 하는듯 하다. 
 
 ## 중요한 포인트
 

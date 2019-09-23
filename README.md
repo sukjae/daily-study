@@ -91,3 +91,12 @@
 | 10 일차 | [ Jest Testing, 스크럼, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-10.md)   |
 | 13 일차 | [ CustomEvent, Event ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-13/day-13.md)       |
 | 17 일차 | [ 프로젝트를 완성하지 못한 이유 ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-17.md)                |
+
+
+## 개발 서적 읽기
+- 좋은 개발자가 되기 위한 좋은 책들을 읽는다.
+- 읽으며 새로 배운점, 이해가 안갔던 부분, 중요한 부분 을 기록한다. 
+
+| Date       | Title          | Keyword                                                                                                       |
+| ---------- | -------------- | ------------------------------------------------------------------------------------------------------------- |
+| 2019-09-23 | TDD, Kent Beck | [값 객체 패턴, TDD의 리듬, 삼각측량](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day1.md) |

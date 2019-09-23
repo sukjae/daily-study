@@ -91,7 +91,7 @@
 | 10 일차 | [ Jest Testing, 스크럼, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-10.md)   |
 | 13 일차 | [ CustomEvent, Event ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-13/day-13.md)       |
 | 17 일차 | [ 프로젝트를 완성하지 못한 이유 ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-17.md)                |
-
+| 18 일차 | [CAP, ACID, Cloud, 지각!!](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-18.md)            |
 
 ## 개발 서적 읽기
 - 좋은 개발자가 되기 위한 좋은 책들을 읽는다.

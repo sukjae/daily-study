@@ -100,3 +100,4 @@
 | Date       | Title          | Keyword                                                                                                       |
 | ---------- | -------------- | ------------------------------------------------------------------------------------------------------------- |
 | 2019-09-23 | TDD, Kent Beck | [값 객체 패턴, TDD의 리듬, 삼각측량](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day1.md) |
+| 2019-09-24 | TDD, Kent Beck | [리펙토링의 과정, 테스트 주기를 빨리](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day2.md)   |

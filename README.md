@@ -93,8 +93,8 @@
 | 17 일차   | [ 프로젝트를 완성하지 못한 이유 ](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-17.md)                       |
 | 18 일차   | [CAP, ACID, Cloud, 지각!!](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-18.md)                   |
 | 19 일차   | [Auth에 대한 고민](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-19.md)                              |
-|         |
 | 다시 0 일차 | [React에서 props로 전달받은 값으로 자식 컴포넌트 업데이트하기](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-re-0.md) |
+| 다시 1 일차 | [React에서 props를 깊이있게 내리기](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-re-1.md)                |
 
 ## 개발 서적 읽기
 - 좋은 개발자가 되기 위한 좋은 책들을 읽는다.

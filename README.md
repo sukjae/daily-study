@@ -96,6 +96,7 @@
 | 다시 0 일차 | [React에서 props로 전달받은 값으로 자식 컴포넌트 업데이트하기](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-re-0.md) |
 | 다시 1 일차 | [React에서 props를 깊이있게 내리기](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-re-1.md)                |
 | 다시 2 일차 | [React에서 Hooks는 어떻게 HOC를 대체하는가](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-re-2.md)          |
+| 다시 3 일차 | [React에서 useEffect의 실행 흐름 이해하기](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-re-3.md)          |
 
 ## 개발 서적 읽기
 - 좋은 개발자가 되기 위한 좋은 책들을 읽는다.

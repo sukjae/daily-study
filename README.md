@@ -102,7 +102,8 @@
 - 좋은 개발자가 되기 위한 좋은 책들을 읽는다.
 - 읽으며 새로 배운점, 이해가 안갔던 부분, 중요한 부분 을 기록한다. 
 
-| Date       | Title          | Keyword                                                                                                       |
-| ---------- | -------------- | ------------------------------------------------------------------------------------------------------------- |
-| 2019-09-23 | TDD, Kent Beck | [값 객체 패턴, TDD의 리듬, 삼각측량](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day1.md) |
-| 2019-09-24 | TDD, Kent Beck | [리펙토링의 과정, 테스트 주기를 빨리](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day2.md)   |
+| Date       | Title             | Keyword                                                                                                       |
+| ---------- | ----------------- | ------------------------------------------------------------------------------------------------------------- |
+| 2019-09-23 | TDD, Kent Beck    | [값 객체 패턴, TDD의 리듬, 삼각측량](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day1.md) |
+| 2019-09-24 | TDD, Kent Beck    | [리펙토링의 과정, 테스트 주기를 빨리](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day2.md)   |
+| 2019-10-26 | XP 2/E, Kent Beck | [XP란, 운전하는 법 배우기](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day1.md)         |

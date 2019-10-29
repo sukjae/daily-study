@@ -108,3 +108,4 @@
 | 2019-09-24 | TDD, Kent Beck    | [리펙토링의 과정, 테스트 주기를 빨리](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day2.md)   |
 | 2019-10-26 | XP 2/E, Kent Beck | [XP란, 운전하는 법 배우기](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day1.md)         |
 | 2019-10-27 | XP 2/E, Kent Beck | [XP를 이끄는 가치](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day2.md)              |
+| 2019-10-28 | XP 2/E, Kent Beck | [XP를 이끄는 원칙](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day3.md)              |

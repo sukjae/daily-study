@@ -110,3 +110,4 @@
 | 2019-10-27 | XP 2/E, Kent Beck   | [XP를 이끄는 가치](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day2.md)              |
 | 2019-10-28 | XP 2/E, Kent Beck   | [XP를 이끄는 원칙](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day3.md)              |
 | 2019-10-31 | Scrum, Ken schwaber | [Scrum 인트로](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day1.md)                  |
+| 2019-11-01 | Scrum, Ken schwaber | [Scrum & 공정 제어 모델](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day2.md)           |

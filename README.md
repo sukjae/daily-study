@@ -99,6 +99,7 @@
 | 다시 3 일차  | [React에서 useEffect의 실행 흐름 이해하기](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-re-3.md)          |
 | 프로젝트 1일차 | [프로젝트를 통해 얻고자 하는것](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-1.md)                  |
 | 프로젝트 2일차 | [이번 프로젝트에서의 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-2.md)                    |
+| 프로젝트 3일차 | [나의 의견이 팀의 최선의 선택을 찾는데 방해가 되는가](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-3.md)     |
 
 ## 개발 서적 읽기
 - 좋은 개발자가 되기 위한 좋은 책들을 읽습니다.

@@ -101,8 +101,8 @@
 | 프로젝트 2일차 | [이번 프로젝트에서의 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-challenge/day-project-2.md)                    |
 
 ## 개발 서적 읽기
-- 좋은 개발자가 되기 위한 좋은 책들을 읽는다.
-- 읽으며 새로 배운점, 이해가 안갔던 부분, 중요한 부분 을 기록한다. 
+- 좋은 개발자가 되기 위한 좋은 책들을 읽습니다.
+- 읽으며 새로 배운점, 이해가 안갔던 부분, 중요한 부분 을 기록 합니다. 
 
 | Date       | Title               | Keyword                                                                                                       |
 | ---------- | ------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -113,3 +113,12 @@
 | 2019-10-28 | XP 2/E, Kent Beck   | [XP를 이끄는 원칙](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day3.md)              |
 | 2019-10-31 | Scrum, Ken schwaber | [Scrum 인트로](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day1.md)                  |
 | 2019-11-01 | Scrum, Ken schwaber | [Scrum & 공정 제어 모델](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day2.md)           |
+
+
+## 컨퍼런스 참여
+- 좋은 개발자들에게 배움을 얻기 위해 자발적으로 참여 합니다.
+- 참여하며 느낀점, 얻은 정보, 활용 방안 등을 공유합니다. 
+
+| Date       | Title                   | Keyword                                                                                                                       |
+| ---------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 2019-11-06 | 웹 개발자들을 위한 잡다한 웹 지식 세미나 | [Google 크롤링 봇, SEO, JS, SSR](https://github.com/sukjae/daily-study/blob/master/conference/2019-11-06-google-web-knowledge.md) |

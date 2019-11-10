@@ -3,38 +3,39 @@
 
 ## 개인 학습
 
-| Date       | Content                                                                                                                        |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 2019-07-01 | [Snapshot](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-01.md)                                              |
-| 2019-07-02 | [스크럼과 XP (헨릭 크니버그) 절반을 읽고...](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-02.md)                           |
-| 2019-07-03 | [Redux vs Apollo ..?](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-03.md)                                   |
-| 2019-07-04 | [OpsWork+Chef+CloudFormation+.. 어떻게 서로 조화를 이루나](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-04.md)         |
-| 2019-07-05 | [기업의 불합격 통보는 아무 영양가 없다.](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-05.md)                                |
-| 2019-07-06 | [함수형 프로그래밍에서 currying이 갖는 장점](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-06.md)                           |
-| 2019-07-07 | [SAGA의 필요성과 특징 ](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-07.md)                                        |
-| 2019-07-08 | [Just Enough Functional Programming - 1탄](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-08.md)               |
-| 2019-07-09 | [Just Enough Functional Programming - 2탄](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-09.md)               |
-| 2019-07-10 | [스크럼과 XP (헨릭 크니버그) 나머지 절반을 읽고...](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-10.md)                       |
-| 2019-07-11 | [Just Enough Functional Programming - 3탄](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-11.md)               |
-| 2019-07-12 | [ReactJS:: props.render vs props.children vs HOC](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-12.md)       |
-| 2019-07-13 | [bash_profile 와 zsh에 관한 글](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-13.md)                              |
-| 2019-07-14 | [JS 이해하기 [JS, nodeJS, V8, Libuv]-1탄](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-14.md)                    |
-| 2019-07-20 | [Js에서 composition over inheritance가 뜻 하는게 무엇일까](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-20.md)         |
-| 2019-07-21 | [prototype과 __proto__에 대한 간단한 생각 정리](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-21.md)                    |
-| 2019-07-27 | [JS에서 Spread syntax는 shallow copy일까 deep copy 일까](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-27.md)       |
-| 2019-07-28 | [ReactJS에서의 styled-jsx](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-28.md)                                 |
-| 2019-08-01 | [ReactJS 와 HTML canvas 사용하여 사진 위에 그림 그리기](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-01.md)               |
-| 2019-08-03 | [fork한 repo, 원본의 변화에 동기화 하기](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-03.md)                            |
-| 2019-08-04 | [JS의 switch-case에서 block단위 처리 방법](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-04-1.md)                     |
-| 2019-08-04 | [Conditional rendering 에서 empty component는 어떻게 처리할까?](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-04-2.md) |
-| 2019-08-04 | [React에서 Redux사용시 local state를 사용하면 안되나?](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-04-3.md)             |
-| 2019-08-10 | [Lambda에서 API-Gateway로 넘겨받은 post의 body읽기](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-10.md)               |
-| 2019-08-11 | [Normalizr, 객체(JSON) 분해하기](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-11.md)                              |
-| 2019-08-12 | [Redux-Thunk에 대한 생각 정리](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-12.md)                                 |
-| 2019-08-13 | [간단한 리펙토링, filter대신 map으로!](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-13.md)                             |
-| 2019-08-15 | [Netlify & Netlify CMS](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-15.md)                                 |
-| 2019-08-20 | [Github Markdown에서 이미지 크기 조절하는 방법](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-20.md)                      |
-| 2019-09-15 | [AWS SAM 에서의 Update, 불사조 서버](https://github.com/sukjae/daily-study/blob/master/daily/2019-09-15.md)                            |
+| Date       | Content                                                                                                                           |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 2019-07-01 | [Snapshot](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-01.md)                                                 |
+| 2019-07-02 | [스크럼과 XP (헨릭 크니버그) 절반을 읽고...](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-02.md)                              |
+| 2019-07-03 | [Redux vs Apollo ..?](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-03.md)                                      |
+| 2019-07-04 | [OpsWork+Chef+CloudFormation+.. 어떻게 서로 조화를 이루나](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-04.md)            |
+| 2019-07-05 | [기업의 불합격 통보는 아무 영양가 없다.](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-05.md)                                   |
+| 2019-07-06 | [함수형 프로그래밍에서 currying이 갖는 장점](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-06.md)                              |
+| 2019-07-07 | [SAGA의 필요성과 특징 ](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-07.md)                                           |
+| 2019-07-08 | [Just Enough Functional Programming - 1탄](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-08.md)                  |
+| 2019-07-09 | [Just Enough Functional Programming - 2탄](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-09.md)                  |
+| 2019-07-10 | [스크럼과 XP (헨릭 크니버그) 나머지 절반을 읽고...](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-10.md)                          |
+| 2019-07-11 | [Just Enough Functional Programming - 3탄](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-11.md)                  |
+| 2019-07-12 | [ReactJS:: props.render vs props.children vs HOC](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-12.md)          |
+| 2019-07-13 | [bash_profile 와 zsh에 관한 글](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-13.md)                                 |
+| 2019-07-14 | [JS 이해하기 [JS, nodeJS, V8, Libuv]-1탄](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-14.md)                       |
+| 2019-07-20 | [Js에서 composition over inheritance가 뜻 하는게 무엇일까](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-20.md)            |
+| 2019-07-21 | [prototype과 __proto__에 대한 간단한 생각 정리](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-21.md)                       |
+| 2019-07-27 | [JS에서 Spread syntax는 shallow copy일까 deep copy 일까](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-27.md)          |
+| 2019-07-28 | [ReactJS에서의 styled-jsx](https://github.com/sukjae/daily-study/blob/master/daily/2019-07-28.md)                                    |
+| 2019-08-01 | [ReactJS 와 HTML canvas 사용하여 사진 위에 그림 그리기](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-01.md)                  |
+| 2019-08-03 | [fork한 repo, 원본의 변화에 동기화 하기](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-03.md)                               |
+| 2019-08-04 | [JS의 switch-case에서 block단위 처리 방법](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-04-1.md)                        |
+| 2019-08-04 | [Conditional rendering 에서 empty component는 어떻게 처리할까?](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-04-2.md)    |
+| 2019-08-04 | [React에서 Redux사용시 local state를 사용하면 안되나?](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-04-3.md)                |
+| 2019-08-10 | [Lambda에서 API-Gateway로 넘겨받은 post의 body읽기](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-10.md)                  |
+| 2019-08-11 | [Normalizr, 객체(JSON) 분해하기](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-11.md)                                 |
+| 2019-08-12 | [Redux-Thunk에 대한 생각 정리](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-12.md)                                    |
+| 2019-08-13 | [간단한 리펙토링, filter대신 map으로!](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-13.md)                                |
+| 2019-08-15 | [Netlify & Netlify CMS](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-15.md)                                    |
+| 2019-08-20 | [Github Markdown에서 이미지 크기 조절하는 방법](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-20.md)                         |
+| 2019-09-15 | [AWS SAM 에서의 Update, 불사조 서버](https://github.com/sukjae/daily-study/blob/master/daily/2019-09-15.md)                               |
+| 2019-11-10 | [JS Map에서 forEach, key값 뽑기 & Array에서 indexof vs findIndex](https://github.com/sukjae/daily-study/blob/master/daily/2019-11-10.md) |
 
 ## 부스트 캠프 챌린지
 

@@ -103,6 +103,7 @@
 | 프로젝트 3일차 | [나의 의견이 팀의 최선의 선택을 찾는데 방해가 되는가](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-3.md)     |
 | 프로젝트 4일차 | [유저 스토리](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-4.md)                            |
 | 프로젝트 5일차 | [번다운 차트](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-5.md)                            |
+| 프로젝트 2주차 | [컨벤션 자동화, 문서화, 이슈작성](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-6-10.md)             |
 
 ## 개발 서적 읽기
 - 좋은 개발자가 되기 위한 좋은 책들을 읽습니다.

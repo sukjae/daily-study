@@ -36,6 +36,7 @@
 | 2019-08-20 | [Github Markdown에서 이미지 크기 조절하는 방법](https://github.com/sukjae/daily-study/blob/master/daily/2019-08-20.md)                         |
 | 2019-09-15 | [AWS SAM 에서의 Update, 불사조 서버](https://github.com/sukjae/daily-study/blob/master/daily/2019-09-15.md)                               |
 | 2019-11-10 | [JS Map에서 forEach, key값 뽑기 & Array에서 indexof vs findIndex](https://github.com/sukjae/daily-study/blob/master/daily/2019-11-10.md) |
+| 2019-11-24 | [IAM 정책 기본적인 내용 정리](https://github.com/sukjae/daily-study/blob/master/daily/2019-11-24/index.md)                                  |
 
 ## 부스트 캠프 챌린지
 

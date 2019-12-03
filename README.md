@@ -80,31 +80,32 @@
 - 현업 개발 환경과 유사한 팀 단위의 웹 서비스 프로젝트를 수행하는 **[그룹 프로젝트]**
 - 위 과정들을 진행하며, 학습한 내용과 느낀점을 정리
 
-| Date     | Keyword                                                                                                                       |
-| -------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| 0 일차     | [나의 다짐](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/README.md)                                    |
-| 1 일차     | [페어 프로그래밍](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-1.md)                                  |
-| 2 일차     | [코드리뷰, 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-2/day-2.md)                           |
-| 3 일차     | [스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-3.md)                                       |
-| 4 일차     | [또 다시 스크럼, 컨디션 조절](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-4/day-4.md)                    |
-| 7 일차     | [1주차 프로젝트 회고](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-7.md)                               |
-| 8 일차     | [마스터 클래스, OAuth2.0, commit message ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-8.md)        |
-| 9 일차     | [ExpressJS testing, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-9.md)            |
-| 10 일차    | [ Jest Testing, 스크럼, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-10.md)          |
-| 13 일차    | [ CustomEvent, Event ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-13/day-13.md)              |
-| 17 일차    | [ 프로젝트를 완성하지 못한 이유 ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-17.md)                       |
-| 18 일차    | [CAP, ACID, Cloud, 지각!!](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-18.md)                   |
-| 19 일차    | [Auth에 대한 고민](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-19.md)                              |
-| 다시 0 일차  | [React에서 props로 전달받은 값으로 자식 컴포넌트 업데이트하기](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-re-0.md) |
-| 다시 1 일차  | [React에서 props를 깊이있게 내리기](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-re-1.md)                |
-| 다시 2 일차  | [React에서 Hooks는 어떻게 HOC를 대체하는가](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-re-2.md)          |
-| 다시 3 일차  | [React에서 useEffect의 실행 흐름 이해하기](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-re-3.md)          |
-| 프로젝트 1일차 | [프로젝트를 통해 얻고자 하는것](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-1.md)                  |
-| 프로젝트 2일차 | [이번 프로젝트에서의 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-2.md)                    |
-| 프로젝트 3일차 | [나의 의견이 팀의 최선의 선택을 찾는데 방해가 되는가](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-3.md)     |
-| 프로젝트 4일차 | [유저 스토리](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-4.md)                            |
-| 프로젝트 5일차 | [번다운 차트](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-5.md)                            |
-| 프로젝트 2주차 | [컨벤션 자동화, 문서화, 이슈작성](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-6-10.md)             |
+| Date        | Keyword                                                                                                                       |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 0 일차        | [나의 다짐](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/README.md)                                    |
+| 1 일차        | [페어 프로그래밍](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-1.md)                                  |
+| 2 일차        | [코드리뷰, 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-2/day-2.md)                           |
+| 3 일차        | [스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-3.md)                                       |
+| 4 일차        | [또 다시 스크럼, 컨디션 조절](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-4/day-4.md)                    |
+| 7 일차        | [1주차 프로젝트 회고](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-7.md)                               |
+| 8 일차        | [마스터 클래스, OAuth2.0, commit message ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-8.md)        |
+| 9 일차        | [ExpressJS testing, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-9.md)            |
+| 10 일차       | [ Jest Testing, 스크럼, Middleware ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-10.md)          |
+| 13 일차       | [ CustomEvent, Event ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-13/day-13.md)              |
+| 17 일차       | [ 프로젝트를 완성하지 못한 이유 ](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-17.md)                       |
+| 18 일차       | [CAP, ACID, Cloud, 지각!!](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-18.md)                   |
+| 19 일차       | [Auth에 대한 고민](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-19.md)                              |
+| 다시 0 일차     | [React에서 props로 전달받은 값으로 자식 컴포넌트 업데이트하기](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-re-0.md) |
+| 다시 1 일차     | [React에서 props를 깊이있게 내리기](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-re-1.md)                |
+| 다시 2 일차     | [React에서 Hooks는 어떻게 HOC를 대체하는가](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-re-2.md)          |
+| 다시 3 일차     | [React에서 useEffect의 실행 흐름 이해하기](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-re-3.md)          |
+| 프로젝트 1일차    | [프로젝트를 통해 얻고자 하는것](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-1.md)                  |
+| 프로젝트 2일차    | [이번 프로젝트에서의 스크럼](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-2.md)                    |
+| 프로젝트 3일차    | [나의 의견이 팀의 최선의 선택을 찾는데 방해가 되는가](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-3.md)     |
+| 프로젝트 4일차    | [유저 스토리](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-4.md)                            |
+| 프로젝트 5일차    | [번다운 차트](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-5.md)                            |
+| 프로젝트 2주차    | [컨벤션 자동화, 문서화, 이슈작성](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-6-10.md)             |
+| 프로젝트 4주차 2일 | [socket.io 삽질](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-3.md)                          |
 
 ## 개발 서적 읽기
 - 좋은 개발자가 되기 위한 좋은 책들을 읽습니다.

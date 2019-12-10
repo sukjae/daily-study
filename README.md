@@ -108,6 +108,8 @@
 | 프로젝트 2주차    | [컨벤션 자동화, 문서화, 이슈작성](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/day-project-6-10.md)             |
 | 프로젝트 4주차 2일 | [socket.io 삽질](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-3.md)                          |
 | 프로젝트 4주차 3일 | [socket.io 삽질2, namespace,room, 인증, 권한](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-4.md) |
+| 프로젝트 5주차 2일 | [쿠버네티스 삽질](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-10.md)                             |
+
 
 ## 개발 서적 읽기
 - 좋은 개발자가 되기 위한 좋은 책들을 읽습니다.

@@ -111,6 +111,7 @@
 | 프로젝트 5주차 2일 | [쿠버네티스 삽질](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-10.md)                             |
 | 프로젝트 5주차 3일 | [쿠버네티스 삽질2, k8s+AWS 구성도 v1](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-11/index.md)      |
 | 프로젝트 6주차 2일 | [성과에 대해서](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-17.md)                              |
+| 프로젝트 6주차 4일 | [각](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-19.md)                                    |
 
 ## 개발 서적 읽기
 - 좋은 개발자가 되기 위한 좋은 책들을 읽습니다.

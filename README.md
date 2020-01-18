@@ -39,6 +39,7 @@
 | 2019-11-24 | [IAM 정책 기본적인 내용 정리](https://github.com/sukjae/daily-study/blob/master/daily/2019-11-24/index.md)                                  |
 | 2019-12-05 | [TS: any대신에 $TSFixMe](https://github.com/sukjae/daily-study/blob/master/daily/2019-12-05/index.md)                                |
 | 2020-01-17 | [면접 반성](https://github.com/sukjae/daily-study/blob/master/daily/2020-01-17.md)                                                    |
+| 2020-01-18 | [microbrowser](https://github.com/sukjae/daily-study/blob/master/daily/2020-01-18.md)                                             |
 
 ## 리엑트 뽀개기
 

@@ -40,6 +40,7 @@
 | 2019-12-05 | [TS: any대신에 $TSFixMe](https://github.com/sukjae/daily-study/blob/master/daily/2019-12-05/index.md)                                |
 | 2020-01-17 | [면접 반성](https://github.com/sukjae/daily-study/blob/master/daily/2020-01-17.md)                                                    |
 | 2020-01-18 | [microbrowser](https://github.com/sukjae/daily-study/blob/master/daily/2020-01-18.md)                                             |
+| 2020-01-23 | [HTML 엘리먼트 기본 스타일 제거하기 ](https://github.com/sukjae/daily-study/blob/master/daily/2020-01-23.md)                                   |
 
 ## 리엑트 뽀개기
 

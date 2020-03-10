@@ -43,6 +43,38 @@
 | 2020-01-23 | [HTML 엘리먼트 기본 스타일 제거하기 ](https://github.com/sukjae/daily-study/blob/master/daily/2020-01-23.md)                                   |
 | 2020-01-25 | [CSS의 Width/Height VS HTML attributes의 Width/Height](https://github.com/sukjae/daily-study/blob/master/daily/2020-01-25.md)       |
 
+
+## 개발 서적 읽기
+- 좋은 개발자가 되기 위한 좋은 책들을 읽습니다.
+- 읽으며 새로 배운점, 이해가 안갔던 부분, 중요한 부분 을 기록 합니다. 
+
+| Date       | Title                         | Keyword                                                                                                               |
+| ---------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| 2019-09-23 | TDD, Kent Beck                | [값 객체 패턴, TDD의 리듬, 삼각측량](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day1.md)         |
+| 2019-09-24 | TDD, Kent Beck                | [리펙토링의 과정, 테스트 주기를 빨리](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day2.md)           |
+| 2019-10-26 | XP 2/E, Kent Beck             | [XP란, 운전하는 법 배우기](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day1.md)                 |
+| 2019-10-27 | XP 2/E, Kent Beck             | [XP를 이끄는 가치](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day2.md)                      |
+| 2019-10-28 | XP 2/E, Kent Beck             | [XP를 이끄는 원칙](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day3.md)                      |
+| 2019-10-31 | Scrum, Ken schwaber           | [Scrum 인트로](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day1.md)                          |
+| 2019-11-01 | Scrum, Ken schwaber           | [Scrum & 공정 제어 모델](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day2.md)                   |
+| 2019-11-23 | Node.js Design Pattern, Mario | [busy waiting, 이벤트 디멀티플렉서](https://github.com/sukjae/daily-study/blob/master/read-a-book/node-design-pattern-day1.md) |
+
+## 컨퍼런스 참여
+- 좋은 개발자들에게 배움을 얻기 위해 자발적으로 참여 합니다.
+- 참여하며 느낀점, 얻은 정보, 활용 방안 등을 공유합니다. 
+
+| Date       | Title                   | Keyword                                                                                                                       |
+| ---------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 2019-11-06 | 웹 개발자들을 위한 잡다한 웹 지식 세미나 | [Google 크롤링 봇, SEO, JS, SSR](https://github.com/sukjae/daily-study/blob/master/conference/2019-11-06-google-web-knowledge.md) |
+
+
+## 온라인 발표 시청
+- 유튜브등에 올라와 있는 좋은 내용의 발표들을 보고 기록합니다
+
+| Date       | Title                                                                                                                    | Link                                                   |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| 2020-03-10 | [GOTO 2018 • Functional Programming in 40 Minutes • Russ Olsen](./online-conference/functional-programming-in-40-min.md) | [Youtube](https://www.youtube.com/watch?v=0if71HOyVjY) |
+
 ## 리엑트 뽀개기
 
 > 리액트를 파고들어 학습합니다 
@@ -125,26 +157,3 @@
 | 프로젝트 5주차 3일 | [쿠버네티스 삽질2, k8s+AWS 구성도 v1](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-11/index.md)      |
 | 프로젝트 6주차 2일 | [성과에 대해서](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-17.md)                              |
 | 프로젝트 6주차 4일 | [각](https://github.com/sukjae/daily-study/blob/master/boost-camp-membership/2019-12-19.md)                                    |
-
-## 개발 서적 읽기
-- 좋은 개발자가 되기 위한 좋은 책들을 읽습니다.
-- 읽으며 새로 배운점, 이해가 안갔던 부분, 중요한 부분 을 기록 합니다. 
-
-| Date       | Title                         | Keyword                                                                                                               |
-| ---------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 2019-09-23 | TDD, Kent Beck                | [값 객체 패턴, TDD의 리듬, 삼각측량](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day1.md)         |
-| 2019-09-24 | TDD, Kent Beck                | [리펙토링의 과정, 테스트 주기를 빨리](https://github.com/sukjae/daily-study/blob/master/read-a-book/TDD-kent-beck-day2.md)           |
-| 2019-10-26 | XP 2/E, Kent Beck             | [XP란, 운전하는 법 배우기](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day1.md)                 |
-| 2019-10-27 | XP 2/E, Kent Beck             | [XP를 이끄는 가치](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day2.md)                      |
-| 2019-10-28 | XP 2/E, Kent Beck             | [XP를 이끄는 원칙](https://github.com/sukjae/daily-study/blob/master/read-a-book/XP-kent-beck-day3.md)                      |
-| 2019-10-31 | Scrum, Ken schwaber           | [Scrum 인트로](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day1.md)                          |
-| 2019-11-01 | Scrum, Ken schwaber           | [Scrum & 공정 제어 모델](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day2.md)                   |
-| 2019-11-23 | Node.js Design Pattern, Mario | [busy waiting, 이벤트 디멀티플렉서](https://github.com/sukjae/daily-study/blob/master/read-a-book/node-design-pattern-day1.md) |
-
-## 컨퍼런스 참여
-- 좋은 개발자들에게 배움을 얻기 위해 자발적으로 참여 합니다.
-- 참여하며 느낀점, 얻은 정보, 활용 방안 등을 공유합니다. 
-
-| Date       | Title                   | Keyword                                                                                                                       |
-| ---------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| 2019-11-06 | 웹 개발자들을 위한 잡다한 웹 지식 세미나 | [Google 크롤링 봇, SEO, JS, SSR](https://github.com/sukjae/daily-study/blob/master/conference/2019-11-06-google-web-knowledge.md) |

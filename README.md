@@ -58,6 +58,8 @@
 | 2019-10-31 | Scrum, Ken schwaber           | [Scrum 인트로](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day1.md)                          |
 | 2019-11-01 | Scrum, Ken schwaber           | [Scrum & 공정 제어 모델](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day2.md)                   |
 | 2019-11-23 | Node.js Design Pattern, Mario | [busy waiting, 이벤트 디멀티플렉서](https://github.com/sukjae/daily-study/blob/master/read-a-book/node-design-pattern-day1.md) |
+| 2020-03-11 | 객체지향의 사실과 오해 | [타입과 추상화](https://github.com/sukjae/daily-study/blob/master/read-a-book/essence-of-oop-ch3.md) |
+
 
 ## 컨퍼런스 참여
 - 좋은 개발자들에게 배움을 얻기 위해 자발적으로 참여 합니다.

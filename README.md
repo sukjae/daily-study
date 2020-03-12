@@ -77,6 +77,13 @@
 | ---------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
 | 2020-03-10 | [GOTO 2018 • Functional Programming in 40 Minutes • Russ Olsen](./online-conference/functional-programming-in-40-min.md) | [Youtube](https://www.youtube.com/watch?v=0if71HOyVjY) |
 
+## 도구 사용
+- 여러 도구들을 사용하며, 간단하게 경험을 공유합니다 
+
+| Date | Title | Keyword |
+|------|-------|---------|
+|2020-03-12| [lucid chart 간단 경험](./tools/lucidchart/index.md) | Diagram, Chart, MindMap |
+
 ## 리엑트 뽀개기
 
 > 리액트를 파고들어 학습합니다 

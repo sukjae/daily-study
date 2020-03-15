@@ -59,7 +59,8 @@
 | 2019-11-01 | Scrum, Ken schwaber           | [Scrum & 공정 제어 모델](https://github.com/sukjae/daily-study/blob/master/read-a-book/scrum-ken-day2.md)                   |
 | 2019-11-23 | Node.js Design Pattern, Mario | [busy waiting, 이벤트 디멀티플렉서](https://github.com/sukjae/daily-study/blob/master/read-a-book/node-design-pattern-day1.md) |
 | 2020-03-11 | 객체지향의 사실과 오해 | [타입과 추상화](https://github.com/sukjae/daily-study/blob/master/read-a-book/essence-of-oop-ch3.md) |
-| 2020-03-12 | 클린 아키텍처 | [패러다임, 구조적, 객체지향, 함수형](./read-a-book/clean-architecture-day1.md) |
+| 2020-03-14 | 클린 아키텍처 | [패러다임, 구조적, 객체지향, 함수형](./read-a-book/clean-architecture-day1.md) |
+| 2020-03-15 | 클린 아키텍처 | [SOLID](./read-a-book/clean-architecture-day2.md) |
 
 
 ## 컨퍼런스 참여

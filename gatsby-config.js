@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/daily-study",
   siteMetadata: {
     title: `Daily Study | Sukjae`,
     author: {

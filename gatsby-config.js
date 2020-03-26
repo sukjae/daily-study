@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Daily Study | Sukjae`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Sukjae`,
+      summary: `who lives and works in Seoul building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `매일 매일 학습한 내용을 기록합니다.`,
+    siteUrl: `https://sukjae.github.io/daily-study/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `lsj7000`,
+      github: `sukjae`,
     },
   },
   plugins: [
@@ -60,8 +61,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Daily Study | Sukjae`,
+        short_name: `DailyStudySukjae`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

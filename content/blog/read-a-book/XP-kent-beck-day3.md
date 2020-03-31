@@ -1,3 +1,8 @@
+---
+title: Extreme Programming Explained 2/E 3
+date: "2019-10-28T00:00:00Z"
+---
+
 | 원제    | Extreme Programming Explained 2/E |
 | ----- | --------------------------------- |
 | 제목    | 익스트림 프로그래밍                        |

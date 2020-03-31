@@ -1,0 +1,411 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><style data-href="/daily-study/styles.7124c66eaacec4e1915b.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/daily-study/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/daily-study/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/daily-study/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/daily-study/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/daily-study/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/daily-study/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/daily-study/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/daily-study/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/daily-study/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/daily-study/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/daily-study/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/daily-study/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/daily-study/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/daily-study/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/daily-study/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/daily-study/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/daily-study/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/daily-study/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/daily-study/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/daily-study/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/daily-study/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/daily-study/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/daily-study/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/daily-study/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/daily-study/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/daily-study/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.19.45"/><link rel="alternate" type="application/rss+xml" href="/daily-study/rss.xml"/><link rel="icon" href="/daily-study/icons/icon-48x48.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="manifest" href="/daily-study/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/daily-study/icons/icon-48x48.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="72x72" href="/daily-study/icons/icon-72x72.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="96x96" href="/daily-study/icons/icon-96x96.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="144x144" href="/daily-study/icons/icon-144x144.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="192x192" href="/daily-study/icons/icon-192x192.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="256x256" href="/daily-study/icons/icon-256x256.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="384x384" href="/daily-study/icons/icon-384x384.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="512x512" href="/daily-study/icons/icon-512x512.png?v=9757a0f41f8816f715aebd56e335a733"/><title data-react-helmet="true">Elasticsearch 기본 정리 | Daily Study | Sukjae</title><meta data-react-helmet="true" name="description" content="프로젝트를 진행하며 Elasticsearch를 사용해야 할 일이 생겼습니다. 이에 따라 기본적인 사용 방법을 파악하기 위해 공식 문서의 get started 내용을 정리하였습니다. Elastic Stack 과거 ELK 스택으로 불리던 제품 묶음이 이제는 Elastic Stack…"/><meta data-react-helmet="true" property="og:title" content="Elasticsearch 기본 정리"/><meta data-react-helmet="true" property="og:description" content="프로젝트를 진행하며 Elasticsearch를 사용해야 할 일이 생겼습니다. 이에 따라 기본적인 사용 방법을 파악하기 위해 공식 문서의 get started 내용을 정리하였습니다. Elastic Stack 과거 ELK 스택으로 불리던 제품 묶음이 이제는 Elastic Stack…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="lsj7000"/><meta data-react-helmet="true" name="twitter:title" content="Elasticsearch 기본 정리"/><meta data-react-helmet="true" name="twitter:description" content="프로젝트를 진행하며 Elasticsearch를 사용해야 할 일이 생겼습니다. 이에 따라 기본적인 사용 방법을 파악하기 위해 공식 문서의 get started 내용을 정리하였습니다. Elastic Stack 과거 ELK 스택으로 불리던 제품 묶음이 이제는 Elastic Stack…"/><link as="script" rel="preload" href="/daily-study/webpack-runtime-4bc0ab10304fecde3760.js"/><link as="script" rel="preload" href="/daily-study/styles-75baeee0277d57793d8c.js"/><link as="script" rel="preload" href="/daily-study/app-c596542a5a5e83429a3e.js"/><link as="script" rel="preload" href="/daily-study/commons-ffc460fc2e63c06b1fcb.js"/><link as="script" rel="preload" href="/daily-study/component---src-templates-blog-post-js-2070063ae60c40f033a9.js"/><link as="fetch" rel="preload" href="/daily-study/page-data/daily/2019-11-26/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/daily-study/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/daily-study/">Daily Study | Sukjae</a></h3></header><main><article><header><h1 style="margin-top:1.75rem;margin-bottom:0">Elasticsearch 기본 정리</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">November 26, 2019</p></header><section><blockquote>
+<p>프로젝트를 진행하며 Elasticsearch를 사용해야 할 일이 생겼습니다. 이에 따라 기본적인 사용 방법을 파악하기 위해 공식 문서의 get started 내용을 정리하였습니다.</p>
+</blockquote>
+<h3>Elastic Stack</h3>
+<p>과거 ELK 스택으로 불리던 제품 묶음이 이제는 Elastic Stack이라는 제품군으로 통일</p>
+<h3>DB등과 어떻게 연결해야 하는지</h3>
+<p>다양한 방법들이 존재한다. 그중 많이 쓰이는 방법은 Logstash를 사용하는 방법이다.</p>
+<p>input source(DB)와 한개 이상의 output sinks(Elastic Search) 중간에 연결고리로 작용하는 pipeline을 생성한다.</p>
+<p>Logstash는 데이터를 연결하기 위한 다양한 source 와 sink의 종류에 대응하여 라이브러리를 제공한다.</p>
+<p>mongodb의 경우에는 output(sink)에 대한 라이브러리가 제공되지만, input으로서는 제공되지 않는다</p>
+<p>input 리스트</p>
+<p><a href="https://www.elastic.co/guide/en/logstash/current/input-plugins.html">https://www.elastic.co/guide/en/logstash/current/input-plugins.html</a></p>
+<p>output 리스트</p>
+<p><a href="https://www.elastic.co/guide/en/logstash/current/output-plugins.html">https://www.elastic.co/guide/en/logstash/current/output-plugins.html</a></p>
+<h3>Elasticsearch REST API의 3가지 query방법</h3>
+<p>출처: <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/search-analyze.html">https://www.elastic.co/guide/en/elasticsearch/reference/current/search-analyze.html</a></p>
+<ul>
+<li>structured queries</li>
+<li>full text queries</li>
+<li>complex queries</li>
+</ul>
+<p><strong>structured queries</strong></p>
+<ul>
+<li>SQL에서 구성 하는것과 유사한 방법</li>
+</ul>
+<blockquote>
+<p>you could search the <code class="language-text">gender</code> and <code class="language-text">age</code> fields in your <code class="language-text">employee index</code> and sort the matches by the <code class="language-text">hire_date</code> field</p>
+</blockquote>
+<p><strong>Full-text queries</strong></p>
+<blockquote>
+<p>find all documents that match the query string and return them sorted by relevance</p>
+</blockquote>
+<ul>
+<li>relevance는 how good a match they are for your search terms.</li>
+</ul>
+<p><strong>complex queries</strong></p>
+<p>위 <strong>structured queries</strong>와 <strong>full text queries</strong> 를 합친 방식</p>
+<p><strong>추가적으로,</strong></p>
+<p>또한 다음과 같은 기능을 제공한다</p>
+<p>phrase searches, similarity searches, and prefix searches, and get autocomplete suggestions</p>
+<p>또한, 지리적 query와 대수적인 query 모두를 고성능으로 제공한다.</p>
+<p>위 모든 query는 Elasticsearch의 포괄적인 JSON스타일의 쿼리(Query DSL)을 통해 사용할 수 있다.</p>
+<p>이 뿐만 아니라, SQL형태의 query도 적용 가능하다.</p>
+<h1>docker &#x26; Elasticsearch</h1>
+<h2>설치</h2>
+<p>출처: <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html">https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html</a></p>
+<p>두가지 방법이 존재한다.</p>
+<p>나의 경우에는 간단한 테스트를 위한 환경 구성이므로 single node도 무방해 보인다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># docker image pull
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.4.2
+# docker run
+docker run -p 9200:9200 -p 9300:9300 -e &quot;discovery.type=single-node&quot; docker.elastic.co/elasticsearch/elasticsearch:7.4.2</code></pre></div>
+<p>이렇게 올라간 엘라스틱서치를 확인하기 위해 다음과 같은 명령어 타입</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">╰─ curl -X GET &quot;localhost:9200/_cat/health?v&quot;
+
+# 결과
+epoch      timestamp cluster        status node.total node.data shards pri relo init unassign pending_tasks max_task_wait_time active_shards_percent
+1574745447 05:17:27  docker-cluster green           1         1      0   0    0    0        0             0                  -                100.0%</code></pre></div>
+<p>위의 예시에서 보이듯이, elasticsearch는 restful api로 명령어를 수행 하는듯 하다.</p>
+<h2>사용법</h2>
+<p>Rest api로 설정이 가능하니, 데이터 주입이 가능함도 당연하다.</p>
+<h3>등록</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X PUT &quot;localhost:9200/customer/_doc/1?pretty&quot; -H \
+&#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;name&quot;: &quot;John Doe&quot;
+}
+&#39;
+
+# 결과
+{
+  &quot;_index&quot; : &quot;customer&quot;,
+  &quot;_type&quot; : &quot;_doc&quot;,
+  &quot;_id&quot; : &quot;1&quot;,
+  &quot;_version&quot; : 1,
+  &quot;result&quot; : &quot;created&quot;,
+  &quot;_shards&quot; : {
+    &quot;total&quot; : 2,
+    &quot;successful&quot; : 1,
+    &quot;failed&quot; : 0
+  },
+  &quot;_seq_no&quot; : 0,
+  &quot;_primary_term&quot; : 1
+}</code></pre></div>
+<h3>조회</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/customer/_doc/1?pretty&quot;
+
+# 결과
+{
+  &quot;_index&quot; : &quot;customer&quot;,
+  &quot;_type&quot; : &quot;_doc&quot;,
+  &quot;_id&quot; : &quot;1&quot;,
+  &quot;_version&quot; : 1,
+  &quot;_seq_no&quot; : 0,
+  &quot;_primary_term&quot; : 1,
+  &quot;found&quot; : true,
+  &quot;_source&quot; : {
+    &quot;name&quot; : &quot;John Doe&quot;
+  }
+}</code></pre></div>
+<h3>벌크 주입</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -H &quot;Content-Type: application/json&quot; \
+-XPOST &quot;localhost:9200/bank/_bulk?pretty&amp;refresh&quot; \
+--data-binary &quot;@accounts.json&quot;
+
+# 결과
+
+...
+{
+      &quot;index&quot; : {
+        &quot;_index&quot; : &quot;bank&quot;,
+        &quot;_type&quot; : &quot;_doc&quot;,
+        &quot;_id&quot; : &quot;717&quot;,
+        &quot;_version&quot; : 1,
+        &quot;result&quot; : &quot;created&quot;,
+        &quot;forced_refresh&quot; : true,
+        &quot;_shards&quot; : {
+          &quot;total&quot; : 2,
+          &quot;successful&quot; : 1,
+          &quot;failed&quot; : 0
+        },
+        &quot;_seq_no&quot; : 943,
+        &quot;_primary_term&quot; : 1,
+        &quot;status&quot; : 201
+      }
+    },
+...</code></pre></div>
+<p>신기하게도, 상대경로나 절대경로가 아닌 <code class="language-text">@</code> 를 파일 앞에 두어야 한다.</p>
+<p><code class="language-text">./accounts.json</code> 으로 해보니 에러가 뜬다.</p>
+<h3>index들 조회</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl &quot;localhost:9200/_cat/indices?v&quot;
+
+# 결과
+health status index    uuid                   pri rep docs.count docs.deleted store.size pri.store.size
+yellow open   bank     Vi8pnBZRQHaZY5J2NrdM0g   1   1       1000            0    414.2kb        414.2kb
+yellow open   customer aZHN_XWAQjC0j_W1yiYLRg   1   1          1            0      3.5kb          3.5kb</code></pre></div>
+<p>정상적으로 1000개의 bank정보가 주입 되었음을 확인할 수 있다.</p>
+<h3>검색</h3>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; \
+-H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;query&quot;: { &quot;match_all&quot;: {} },
+  &quot;sort&quot;: [
+    { &quot;account_number&quot;: &quot;asc&quot; }
+  ]
+}
+&#39;
+
+# 결과
+{
+  &quot;took&quot; : 384,
+  &quot;timed_out&quot; : false,
+  &quot;_shards&quot; : {
+    &quot;total&quot; : 1,
+    &quot;successful&quot; : 1,
+    &quot;skipped&quot; : 0,
+    &quot;failed&quot; : 0
+  },
+  &quot;hits&quot; : {
+    &quot;total&quot; : {
+      &quot;value&quot; : 1000,
+      &quot;relation&quot; : &quot;eq&quot;
+    },
+    &quot;max_score&quot; : null,
+    &quot;hits&quot; : [
+      {
+        &quot;_index&quot; : &quot;bank&quot;,
+        &quot;_type&quot; : &quot;_doc&quot;,
+        &quot;_id&quot; : &quot;0&quot;,
+        &quot;_score&quot; : null,
+        &quot;_source&quot; : {
+          &quot;account_number&quot; : 0,
+          &quot;balance&quot; : 16623,
+          &quot;firstname&quot; : &quot;Bradshaw&quot;,
+          &quot;lastname&quot; : &quot;Mckenzie&quot;,
+          &quot;age&quot; : 29,
+          &quot;gender&quot; : &quot;F&quot;,
+          &quot;address&quot; : &quot;244 Columbus Place&quot;,
+          &quot;employer&quot; : &quot;Euron&quot;,
+          &quot;email&quot; : &quot;bradshawmckenzie@euron.com&quot;,
+          &quot;city&quot; : &quot;Hobucken&quot;,
+          &quot;state&quot; : &quot;CO&quot;
+        },
+        &quot;sort&quot; : [
+          0
+        ]
+      },
+... 9 more</code></pre></div>
+<p>기본적으로, hits의 배열(검색에대한 결과)은 검색 조건에 맞는 첫 10개의 documents를 포한한다.</p>
+<p><strong>이 응답 JSON에는 결과값과 다음과 같은 정보를 포함하고 있다.</strong></p>
+<ul>
+<li>took : query를 위해 소요된 시간. milliseconds</li>
+<li>timed_out: 검색 요청이 시간 초과가 되었는지 여부 확인</li>
+<li>_shards: 얼마나 많은 수의 shard가 검색되었는지, 그중 몇개의 shard가 성공/실패/건너띄었는지 의 정보</li>
+<li>max_score: 유사한 document중 가장 높은 점수</li>
+<li>hits.total.value: 얼마나 많은 수의 document가 조건과 부합하였는지</li>
+<li>hits.sort: 정렬 포지션 (관련 점수로 정렬되지 않았을 경우)</li>
+<li>hits._score: document의 유사 점수 (match_all를 사용시에 사용 불가)</li>
+</ul>
+<p>다음과 같이 sort를 제한할 수 있다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; -H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;query&quot;: { &quot;match_all&quot;: {} },
+  &quot;sort&quot;: [
+    { &quot;account_number&quot;: &quot;asc&quot; }
+  ],
+  &quot;from&quot;: 10,
+  &quot;size&quot;: 10
+}
+&#39;</code></pre></div>
+<p>또한, 다음과 같이 특정 문구를 검색할 수 있다.</p>
+<p>이 경우에, elasticsearch의 점수 알고리즘에 의해서 score를 측정하고, 가장 높은 점수 순으로 정렬된다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; \
+-H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;query&quot;: { &quot;match&quot;: { &quot;address&quot;: &quot;mill lane&quot; } }
+}
+&#39;</code></pre></div>
+<p>위의 경우에는, mill와 lane을 포함하는 document를 가져오고, 점수화 하여 보여준다.</p>
+<p>반면, <code class="language-text">mill lane</code> 을 모두 포함하고 싶은 경우에는 다음과 같이 진행한다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; \
+-H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;query&quot;: { &quot;match_phrase&quot;: { &quot;address&quot;: &quot;mill lane&quot; } }
+}
+&#39;
+
+# 결과
+&#39;
+...
+    &quot;max_score&quot; : 9.507477,
+    &quot;hits&quot; : [
+      {
+        &quot;_index&quot; : &quot;bank&quot;,
+        &quot;_type&quot; : &quot;_doc&quot;,
+        &quot;_id&quot; : &quot;136&quot;,
+        &quot;_score&quot; : 9.507477,
+        &quot;_source&quot; : {
+          &quot;account_number&quot; : 136,
+          &quot;balance&quot; : 45801,
+          &quot;firstname&quot; : &quot;Winnie&quot;,
+          &quot;lastname&quot; : &quot;Holland&quot;,
+          &quot;age&quot; : 38,
+          &quot;gender&quot; : &quot;M&quot;,
+          &quot;address&quot; : &quot;198 Mill Lane&quot;,
+          &quot;employer&quot; : &quot;Neteria&quot;,
+...</code></pre></div>
+<p>이 경우, 정확히 맞는 단어를 포함해야 하는 경우로 보인다, 다음과 같은 경우는 아무것도 나오지 않는다</p>
+<p>완벽하게 단어가 매칭 되어야 한다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; \
+-H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;query&quot;: { &quot;match_phrase&quot;: { &quot;address&quot;: &quot;mi lane&quot; } }
+}
+
+# 결과
+...
+&quot;hits&quot; : {
+    &quot;total&quot; : {
+      &quot;value&quot; : 0,
+      &quot;relation&quot; : &quot;eq&quot;
+    },
+    &quot;max_score&quot; : null,
+    &quot;hits&quot; : [ ]
+  }...</code></pre></div>
+<p>보다 복잡한 쿼리를 진행하기 위해서는 <code class="language-text">bool</code> 쿼리를 사용해야 한다.</p>
+<p><code class="language-text">bool</code> 을 사용하여 복수의 쿼리 조건을 합칠 수 있다.</p>
+<p>이를 활용하여 Boolean query에서는 다음 세가지 조건을 구사할 수 있다. (==query clause)</p>
+<ul>
+<li>required (<code class="language-text">must</code>)</li>
+<li>desirable (<code class="language-text">should</code>)</li>
+<li>undesirable (<code class="language-text">must_not</code>)</li>
+</ul>
+<p>위 query clause중 <code class="language-text">must</code> 와 <code class="language-text">should</code> 는 얼마나 잘 맞는지가 document의 relevance score에 영향을 미친다.</p>
+<p><code class="language-text">must_not</code> 은 <code class="language-text">filter</code> 처럼 다뤄진다. 이 부분은 score에 영향을 미치지 않는다.</p>
+<p>예시)</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; -H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;query&quot;: {
+    &quot;bool&quot;: {
+      &quot;must&quot;: [
+        { &quot;match&quot;: { &quot;age&quot;: &quot;40&quot; } }
+      ],
+      &quot;must_not&quot;: [
+        { &quot;match&quot;: { &quot;state&quot;: &quot;ID&quot; } }
+      ]
+    }
+  }
+}
+&#39;</code></pre></div>
+<p><code class="language-text">must_not</code> 이외에도, 명시적으로 필터의 속성을 이용 함으로서 포함하거나 불포함 하고자 하는 document를 정해줄 수 있다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; -H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;query&quot;: {
+    &quot;bool&quot;: {
+      &quot;must&quot;: { &quot;match_all&quot;: {} },
+      &quot;filter&quot;: {
+        &quot;range&quot;: {
+          &quot;balance&quot;: {
+            &quot;gte&quot;: 20000,
+            &quot;lte&quot;: 30000
+          }
+        }
+      }
+    }
+  }
+}
+&#39;</code></pre></div>
+<h3>aggregations</h3>
+<p>이 작업은, 공통된 요소로 묶어서 보는 요약본 같은 느낌이다. (집합)</p>
+<p>예를 들어, How many account holders are in Texas?” or “What’s the average balance of accounts in Tennessee? 와 같은 질문을 던져볼 수 있다.</p>
+<p>terms 를 이용하여 다음과 같이 질의할 수 있다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; -H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;size&quot;: 0,
+  &quot;aggs&quot;: {
+    &quot;group_by_state&quot;: {
+      &quot;terms&quot;: {
+        &quot;field&quot;: &quot;state.keyword&quot;
+      }
+    }
+  }
+}
+&#39;</code></pre></div>
+<p>이 경우에, 우리는 field중에 state의 값에 따라 group을 생성해 준다.</p>
+<p>위의 group<em>by</em>state는 namepix 정도로 생각하면 될듯 하다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># 결과
+{
+  &quot;took&quot; : 100,
+  &quot;timed_out&quot; : false,
+  &quot;_shards&quot; : {
+    &quot;total&quot; : 1,
+    &quot;successful&quot; : 1,
+    &quot;skipped&quot; : 0,
+    &quot;failed&quot; : 0
+  },
+  &quot;hits&quot; : {
+    &quot;total&quot; : {
+      &quot;value&quot; : 1000,
+      &quot;relation&quot; : &quot;eq&quot;
+    },
+    &quot;max_score&quot; : null,
+    &quot;hits&quot; : [ ]
+  },
+  &quot;aggregations&quot; : {
+    &quot;group_by_state&quot; : {
+      &quot;doc_count_error_upper_bound&quot; : 0,
+      &quot;sum_other_doc_count&quot; : 743,
+      &quot;buckets&quot; : [
+        {
+          &quot;key&quot; : &quot;TX&quot;,
+          &quot;doc_count&quot; : 30
+        },
+        {
+          &quot;key&quot; : &quot;MD&quot;,
+          &quot;doc_count&quot; : 28
+        },
+        {
+          &quot;key&quot; : &quot;ID&quot;,
+          &quot;doc_count&quot; : 27
+        },
+...</code></pre></div>
+<p>aggregation을 중첩하여 더 복잡한 요약본을 생성할 수도 있다 .</p>
+<p>이 경우에는 주별 평균 계좌 잔고를 측정할 수 있다.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; \
+-H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;size&quot;: 0,
+  &quot;aggs&quot;: {
+    &quot;group_by_state&quot;: {
+      &quot;terms&quot;: {
+        &quot;field&quot;: &quot;state.keyword&quot;
+      },
+      &quot;aggs&quot;: {
+        &quot;average_balance&quot;: {
+          &quot;avg&quot;: {
+            &quot;field&quot;: &quot;balance&quot;
+          }
+        }
+      }
+    }
+  }
+}
+&#39;</code></pre></div>
+<p>또, 다음과 같이 정렬도 가능하다. .</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">curl -X GET &quot;localhost:9200/bank/_search?pretty&quot; -H &#39;Content-Type: application/json&#39; -d&#39;
+{
+  &quot;size&quot;: 0,
+  &quot;aggs&quot;: {
+    &quot;group_by_state&quot;: {
+      &quot;terms&quot;: {
+        &quot;field&quot;: &quot;state.keyword&quot;,
+        &quot;order&quot;: {
+          &quot;average_balance&quot;: &quot;desc&quot;
+        }
+      },
+      &quot;aggs&quot;: {
+        &quot;average_balance&quot;: {
+          &quot;avg&quot;: {
+            &quot;field&quot;: &quot;balance&quot;
+          }
+        }
+      }
+    }
+  }
+}
+&#39;</code></pre></div></section><hr style="margin-bottom:1.75rem"/><footer><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEz0lEQVQ4ywHEBDv7AHXC64jI7LHh+1N5jkhGRWBgYF1cXFtaWVVWVV1dXVhYV1dXV0tKSkZGRkhHRj1BQ3CctLTi+3vD6n/G6wCb0vB1w+2GwuJHTlNOTUwqKysKDA0HCQoNDg4iIyMKDAwEBQYAAAACAwNHSElDQD5Xb3uH0fiAxeqs2vMAk8/uk9HxbrjgSlliGBYVKygme2xlPzMuKSIfCQcGHhgWNywoeGRdh3p0DAwNPDc2Sml5hszyodTwicrtAH7F6ovQ9XOtyy8zNhkXFdjJwP/n1/7Ww/nMu9u0pO/Esv/VwvzVwf/x4nlxbBAODVZkbIvJ6oDH7YHH7ACAxeuDzPNyrMsbHiB2b2n///n81sP8z7v80L3/1sL/1sL/08D91sH/6Nbh3NIfGhdCUlx2wemDyO6V0O8AdcHqe8buer3hJS0xfnJss6GYqIp99Mq48Me19sq437am5byrqo2AYE9Jm42GKiMeRGFxhs71lc/tndTwAHjC6nfD7HrM+BszQIx6cpByaUcwK0s4M19LQ/zQvpt9cUQvKWZKQ3VPRsKlm0tBPC5LW5fc/4rK7HvE6wCW0vN8utxofIgoMjeomZHj0cpCMi5cTkmqiH7guKj7yre4loxBMy9sX1z35dxvZ2EtMDFqiJd2weqMy+4AhM71baXDnn9xfGxk18W8//r1gn58oJuY79TIzaOT/9bC+ePafHd2pqKg///6pZiRjnZskIF7e7jYlNLzAJXU9nSvzqOMg4x0a8i7s76nnMGhlejDtNKhksOUhf/Sv/HGtOO/sLWWitfBtbaqo45vZJaQkGy54XzG7QB5xOp4xu9VaXaFaFy4q6P/3s/6yrf/2MTMno/Zqpv+zrv90r//07/6y7jz1ciunpZsU0ljhpmO0veSze0Ac8DpeMXvcbjeX3eEjYuI/+PV+Mm38ce27sSz4rOi+cq468Oz7MKx/M+9/OTYd3d2Y4aYd8Lqfsbte8PrAI3M7ovK7YTJ73TJ9mOLoejLuv/k0cymmby1s+Xe29nW1aOYk+G1pP/m1dnDtl2QrXzN+YXI7YrK7Y3N7gCLzO59xex2wel/xut3vuR0kJ/awLP/4M3txrbjvLDow7bzzLr/5NLexLh0jpt0vuZ5w+l4wuqAxuyKy+4AdsPrhMjtjsztis7yc8DpZbXhU4ejmpOQ78u79s+/+NDA7cq7mZSTUYKcYK3Wcb7ofMjwd8LqdsLrdcHqAJ3U8JjQ74zP82OhwnaKlZagpYCVoGFiZLmZjaqOhLGSiKuRh0tXXZmqtJ+nq3OIkm2ry4TM83rD6nrE6wCY0O+LzfBstt6Ekpne4eHU3uLP2t6Olpinin7GnI3BmoyUgnuhr7TV3+HS3eHr5+VyipaIyeuJy+5+xuwAhcjrg830davHt7q8vM7Voba/qb7FrsLKkqSsiJmei52jnrO6r8PLp7vDnbS83+jrm6WqZa3UpNr2jsztAIbI66re+XqtyK61ucLR163Ax7DDyq/ByLbIz7bJ0LbJ0LTFzK7Ax7LEy6i8xNzm6qerrXS114HK8avZ8gCx2/KX1fdbn8O0ubvD0tiqvsavwsmvwsmuwciuwciuwcivwsmvwsmww8qmu8Lc5umhqKyMv9uMz/KBxuxlsPqt75PSNgAAAABJRU5ErkJggg==" alt="Sukjae" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/daily-study/static/5b79357028bc414b699d03ddda57c065/8ba1e/profile-pic.png 1x,
+/daily-study/static/5b79357028bc414b699d03ddda57c065/f937a/profile-pic.png 1.5x,
+/daily-study/static/5b79357028bc414b699d03ddda57c065/71eb7/profile-pic.png 2x" /><img loading="lazy" width="50" height="50" srcset="/daily-study/static/5b79357028bc414b699d03ddda57c065/8ba1e/profile-pic.png 1x,
+/daily-study/static/5b79357028bc414b699d03ddda57c065/f937a/profile-pic.png 1.5x,
+/daily-study/static/5b79357028bc414b699d03ddda57c065/71eb7/profile-pic.png 2x" src="/daily-study/static/5b79357028bc414b699d03ddda57c065/8ba1e/profile-pic.png" alt="Sukjae" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>Sukjae</strong> <!-- -->who lives and works in Seoul building useful things.<!-- --> <a href="https://github.com/sukjae">You should follow him on Github</a></p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/daily-study/daily/2019-11-10/">← <!-- -->JS Map에서 forEach, key값 뽑기 &amp; Array에서 indexof vs findIndex</a></li><li><a rel="next" href="/daily-study/online-conference/aws-iam-policies/">IAM 정책 기본적인 내용 정리<!-- --> →</a></li></ul></nav><div></div></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/daily/2019-11-26/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-c596542a5a5e83429a3e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-2070063ae60c40f033a9.js"],"component---src-pages-404-js":["/component---src-pages-404-js-9188ab7ba8aa69c319f6.js"],"component---src-pages-index-js":["/component---src-pages-index-js-1395c6038b4adbd90073.js"]};/*]]>*/</script><script src="/daily-study/component---src-templates-blog-post-js-2070063ae60c40f033a9.js" async=""></script><script src="/daily-study/commons-ffc460fc2e63c06b1fcb.js" async=""></script><script src="/daily-study/app-c596542a5a5e83429a3e.js" async=""></script><script src="/daily-study/styles-75baeee0277d57793d8c.js" async=""></script><script src="/daily-study/webpack-runtime-4bc0ab10304fecde3760.js" async=""></script></body></html>

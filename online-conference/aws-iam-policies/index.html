@@ -1,0 +1,433 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><style data-href="/daily-study/styles.7124c66eaacec4e1915b.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/daily-study/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/daily-study/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/daily-study/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/daily-study/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/daily-study/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/daily-study/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/daily-study/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/daily-study/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/daily-study/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/daily-study/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/daily-study/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/daily-study/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/daily-study/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/daily-study/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/daily-study/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/daily-study/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/daily-study/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/daily-study/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/daily-study/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/daily-study/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/daily-study/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/daily-study/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/daily-study/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/daily-study/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/daily-study/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/daily-study/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/daily-study/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/daily-study/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.19.45"/><link rel="alternate" type="application/rss+xml" href="/daily-study/rss.xml"/><link rel="icon" href="/daily-study/icons/icon-48x48.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="manifest" href="/daily-study/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/daily-study/icons/icon-48x48.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="72x72" href="/daily-study/icons/icon-72x72.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="96x96" href="/daily-study/icons/icon-96x96.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="144x144" href="/daily-study/icons/icon-144x144.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="192x192" href="/daily-study/icons/icon-192x192.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="256x256" href="/daily-study/icons/icon-256x256.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="384x384" href="/daily-study/icons/icon-384x384.png?v=9757a0f41f8816f715aebd56e335a733"/><link rel="apple-touch-icon" sizes="512x512" href="/daily-study/icons/icon-512x512.png?v=9757a0f41f8816f715aebd56e335a733"/><title data-react-helmet="true">IAM 정책 기본적인 내용 정리 | Daily Study | Sukjae</title><meta data-react-helmet="true" name="description" content="발표명 IAM 정책을 잘 알아야 AWS 보안도 쉬워진다. 이것은 꼭 알고 가자! 발표자 신은수 솔루션즈 아키텍트(AWS) 출처 https://youtu.be/iPKaylieTV8 오늘은 AWS의 IAM…"/><meta data-react-helmet="true" property="og:title" content="IAM 정책 기본적인 내용 정리"/><meta data-react-helmet="true" property="og:description" content="발표명 IAM 정책을 잘 알아야 AWS 보안도 쉬워진다. 이것은 꼭 알고 가자! 발표자 신은수 솔루션즈 아키텍트(AWS) 출처 https://youtu.be/iPKaylieTV8 오늘은 AWS의 IAM…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="lsj7000"/><meta data-react-helmet="true" name="twitter:title" content="IAM 정책 기본적인 내용 정리"/><meta data-react-helmet="true" name="twitter:description" content="발표명 IAM 정책을 잘 알아야 AWS 보안도 쉬워진다. 이것은 꼭 알고 가자! 발표자 신은수 솔루션즈 아키텍트(AWS) 출처 https://youtu.be/iPKaylieTV8 오늘은 AWS의 IAM…"/><link as="script" rel="preload" href="/daily-study/webpack-runtime-4bc0ab10304fecde3760.js"/><link as="script" rel="preload" href="/daily-study/styles-75baeee0277d57793d8c.js"/><link as="script" rel="preload" href="/daily-study/app-c596542a5a5e83429a3e.js"/><link as="script" rel="preload" href="/daily-study/commons-ffc460fc2e63c06b1fcb.js"/><link as="script" rel="preload" href="/daily-study/component---src-templates-blog-post-js-2070063ae60c40f033a9.js"/><link as="fetch" rel="preload" href="/daily-study/page-data/online-conference/aws-iam-policies/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/daily-study/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/daily-study/">Daily Study | Sukjae</a></h3></header><main><article><header><h1 style="margin-top:1.75rem;margin-bottom:0">IAM 정책 기본적인 내용 정리</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">December 05, 2019</p></header><section><table>
+<thead>
+<tr>
+<th>발표명</th>
+<th>IAM 정책을 잘 알아야 AWS 보안도 쉬워진다. 이것은 꼭 알고 가자!</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>발표자</td>
+<td>신은수 솔루션즈 아키텍트(AWS)</td>
+</tr>
+<tr>
+<td>출처</td>
+<td><a href="https://youtu.be/iPKaylieTV8">https://youtu.be/iPKaylieTV8</a></td>
+</tr>
+</tbody>
+</table>
+<p>오늘은 AWS의 IAM인증에 대해 다시 한번 정리해 보았다. 정리를 하며 좋은 강의(발표)가 있어서, 내용중 일부분을 정리하고자 한다.</p>
+<p>발표는 2019 AWS Summit Seoul에서 진행되었다. IAM에 대한 기본적인 설명(메카니즘)과 활용방법(팁)들이 포함되어 있다.</p>
+<h3>계정 생성</h3>
+<p>AWS의 서비스를 사용하기 위해 다음과 같은 종류가 존재한다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/1a1d300ca7b2debf0b36cc1d835e8fc3/6b26f/1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACkUlEQVQoz4WSSUjUARTGR8m0RWfGNkXBEnMdM7dOKnUoSFPBZnTy1KFDmFuGhVCUWZmCFth+taYQ0ksokQVCUU7mNjOa5pLOODZO6uQsLqm//i60YNSDH++7vMf3PZ4oMDgC/5B9bPMJImRvHOvdvQmNjMPLLwxP7wBi4hMJlUUTHRWFSCT6P4oEP6oLZJRm+nIpbQvnDm+iWL6d88nuFBx0pUIpJinWm4DAcKRiMRIPCRLxKoKWiqV4SjwFLcbZyRlRQrAbV9M9uXbMB8ubMmaay7C+K8f2tgybupKZpkKsfa8wma1YxieYnLAITC5jEbR5zIzZZMaoHyE0OGTJpdOK1XUSDGPTWL/DuA2+zcIcsMi/S9fRTNPLeqxTVqIjhbM4r2YXu7mgaVGj7+/lk64DfV8PkyYjZqMew7CA4MCgN/zWDYwIenBggM+DQwz2DxISFIxos6+MnUcv4J9WRPypKvbn3SM+9w4JObdJyH9AYnY5udk55Obk/ZX8vNOcPZNH1skspBIpIhcPL1x3x7MjOpHa5iEaOsd41mGiXuj1GjMfhqaWoy3ML65h6R7TjlnaWt9jtzmI2BOxlHYl8kaB0d5ubMZh7KN6sAuLZh3gsDFvsy8PTjtmfuKwzzA3t8AX4wjVNQ8xmcaICBcWbpVFEn48myDlCVKLK1CUVpFccoOUkpscuVyJ4votkoquoJBnkJGuXIMiI5MMeQpKZSYe7mJE7n4B+BxIZNehVFTqTmraPqJq7eJJWzePBV2rG+B5n4GJ8cnVl1lh4us4Ftsc+ob7lMljqVOpiImJ/RV5g5MTrxsb0bW0oFGr6Wlvp1+rpU+jpV/XhaZT+ycdGjTablpf1HH3YiFPVY8IC5XxA1VURZs5NsKtAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="1"
+        title="1"
+        src="/daily-study/static/1a1d300ca7b2debf0b36cc1d835e8fc3/fcda8/1.png"
+        srcset="/daily-study/static/1a1d300ca7b2debf0b36cc1d835e8fc3/12f09/1.png 148w,
+/daily-study/static/1a1d300ca7b2debf0b36cc1d835e8fc3/e4a3f/1.png 295w,
+/daily-study/static/1a1d300ca7b2debf0b36cc1d835e8fc3/fcda8/1.png 590w,
+/daily-study/static/1a1d300ca7b2debf0b36cc1d835e8fc3/efc66/1.png 885w,
+/daily-study/static/1a1d300ca7b2debf0b36cc1d835e8fc3/c83ae/1.png 1180w,
+/daily-study/static/1a1d300ca7b2debf0b36cc1d835e8fc3/6b26f/1.png 1658w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>여기서, IAM 사용자를 ID/PW와 같은 방법으로 접근하는 방식은 Permanent한 자격 증명이다. 반면, 임시보완 자격 증명의 방식은 Lifetime을 갖게 되고 결과적으로 보안에 이점이 생긴다.</p>
+<h3>서비스 이용 방법</h3>
+<p>AWS의 서비스를 이용하는 방법은 다음과 같이 low에서 high로 다양한 방법이 존재한다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 334px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/0c4c1bb2fb6646aeba49ba907b7bb29a/86d36/0.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 118.24324324324324%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAABYlAAAWJQFJUiTwAAAFN0lEQVQ4y52Va3BNVxTHVRKEQWKmSCIerTJ86Ixpx5D7PDf33tyb3LxIboR69yUTrVdIRBBCqy31TnBpKSP0QxiPmBJJUImIV9WjM01SJdx7kxbBUF9+XeckSn3otP3wn7332uv8zjp7rbNXO53OgMliw6hYRbb/LJPF2jbKWtROp38GtP8vqc+ao+2aTM+BYrCaUKxmFJuCxWb+B5m0UdH8TRjMFkbojJoM5mgB6lo33hi8nJCQE4SEHqV79zK6diujW/c2dWtbi0JDj4nfd/TocZK+/YuITUjk/WmZfJAxHacrkXZROvWNeoEcJSgQBg58SETEYxkf07fvEyIjn9Cvv6jfH5otrPdT0tLvExwMQUE/kTQqnZzcPBbnLychcbQA9SrQIG89QnAnGD68iZE6P9FWHynuJhTFj9HUhMPhR6/z0TfyHmlpzfQIfUSHoMu43eOZNWsOGRkzSExKaQUqAozo8zUBgQ/oFHybwCCfpk7BTRKFn/YBPl5p7yMgwEuHjuqen8DAFnqFHUdvNGugWFeSzBU1KSZJipH4JA+j3V6SU+tIGl1P4qh6EpLrcSU1MMrdgHtsvew3iOo1n1HuO7J/EL3JLGMKDjk/vZoUvWRHBaakljJh4iM5Hx/z85op+KSZJQU+Pvu8iYzMJhYs9LNmXTOLFvtIH+sX3xZS085JZh044xOxxsS2ZlmvV4EGeeMh0qc8IGX8HabP9ZO10MeMHB/ZApic4WPqdC+5BV4yZ3txT/CL7z1Gp5+VCB2S6WRsDlcbULJsEGCyw8N7zmamOG8wKeYm7xhvMdHayHilkQkWmUfL3KKub4vPTd51/oY75gA6k4m4+JeAepuRDwfspaDjQ5aGetlqaGRn/C22RN1gq+0XtuhusSv+JpsMMjf+ypKQOyzt1MKcsJNSAdHExidh/1uEUv2Z/Q6zrPMTlvRo5svBfgrf8or87HA1sj3uFtvtXlYN8rF+mJel4lPQ5SHzws5jMsZoxf0SUCLsf4BFXZ6S2+13cru0MDeghWV9Wig0NrNzUiNro+4yT8oqp/N9crveZWGXx3wcXisR2rQI//pkgwCj5NfLeDOXjeGlrI7cx5pwUZ/9on2si9xP0aAS1kaUsLpXCWvCSjSfDeGHyR6yUkrF3HaGcc+ARkZaLRQOnc+FcA+nIgupGfoV1a9t0VSlqr+H2rd3cd5QzNnh33AqYgO1ER72Dlwun2xtO8MXgFEqcEg+NeE7qQjzcC7mIOecpdSmlHJp0jFODxOQcR+Xx1VwIeUox3tupjpiB9++vgrFKJ+c8EJSnkW4anAOp1/dRlnvIsol0oqILVT281A5YBsVvTZR0VO1b6IsvEjzOdXLw44By1qzrAKdrueFPVIxszx5AdXj9lGeXkzFmL2iPZSn7hYVU54mUtdjZC99D8fFp2pcCYXJKxgh/7L6H0fbnW33oQB1isLuzM005J/hSl4lV/NOcH3J99SvO0dd0XnqPRdp8Fzi2ooqri5Q9yupy6+m9KNioqOd2GNdGtQsF7UWoc6iUDxNgLnV/JhdwdXsSq7lnaKh8CI/rzxLnYBv7rzG9U+ruJJVzhXxqVtQxZFpu3DFJWmX68yZWVpi2hkEGGVW2Dj1C37IPkZ11iFq5pZyJuswZ2aLZslaxpp5pZq9Ruyqz6WcMnZMXk+qe6xcHPlkZeXI/ZmuRmiQbmXHYnHisicSZ0/AZXumRM2mjdYX7Qma3WJxSPtwECeXg1qLFptD7SmtTcogbVQvDUev/HsZtNYrz5ksmtT5n13rJLThqnReAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="0"
+        title="0"
+        src="/daily-study/static/0c4c1bb2fb6646aeba49ba907b7bb29a/86d36/0.png"
+        srcset="/daily-study/static/0c4c1bb2fb6646aeba49ba907b7bb29a/12f09/0.png 148w,
+/daily-study/static/0c4c1bb2fb6646aeba49ba907b7bb29a/e4a3f/0.png 295w,
+/daily-study/static/0c4c1bb2fb6646aeba49ba907b7bb29a/86d36/0.png 334w"
+        sizes="(max-width: 334px) 100vw, 334px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>이 중 Declarative한 방식은 자주 사용되는 Provisioning tool들을 뜻하고, CloudFormation, Terraform등이 존재한다.</p>
+<h3>SigV4</h3>
+<p>AWS의 서비스를 사용하기 위해서는 SigV4를 사용하여 Signature를 생성한뒤 요청시에 포함해야 한다. 포함은 Header나 query등 다양한 곳에 위치할 수 있다.</p>
+<p>CLI나 CDK같은 도구를 사용시에는 자동으로 매 요청마다 포함되므로 생각할 필요는 없지만, 이와 같은 도구 없이 서비스를 만드는 경우를 위하여 Signature를 만드는 방법이 AWS에 소개되어 있다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/336c7f585fc55ed051ef485edaf3d585/a9577/2.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 53.37837837837838%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACFElEQVQoz2WSWW+bQBRGwZjdeMEMmMVgbEdynBjvSaqmifrQVEn7///O6TCuGqV5OLoMM/e7q9ZsGp6+PfH49ZH9bs/r6xvPz985nc7stnt+vf2W98+8/PiJrnXQNE2i/0X7TM/vEccJQS/A83zC0Yh0PCATIRMxJk9iUmlTEWEbOqau0dUutGfX7EoMhWd1W9GPEXRJ3nVYJgW7zZbtbcPN+obVakWe50zzgllZKnqe98+ntYYMpkXjiERmeLET0kRQmCOu3Ywrd8KuafjycOZwu+Hc7NludhRFSV0v1Huza+I6LrZl4znORTAWsRLMs5woHFOlDvebPs2yz00Vcroquc+nHMuCY7Pm7tywba6ZTCKEEKRppjTSJPlccpu26DuUkc+mH3AOhjz0Q+6GIcdpzFa4HGKP9dil9jvE0sf/qPFZcGBYhLpDaLpUWcaqrFnP56yqmoHpMLRcAtNm5HhEcpCi1yOQ5fqWgdb2wHM9HNvBMi3VC1deej2fxJOOmk3fDinyikkykaUJaRNZqtwAGayQQ8rSVE7Yp9Ou0nAwpJ7V6vFysVSItp/TikfZ08wKmC1WFLMrbuWADvs993cPcigzJTiv5yohXTMk+nvJRsdQ0UQk/lsjk/XimtP+yGF3oJy2E67Uvl7uL0ve1a3L92g4UhNuo7yL6IqOooOl2/hOgGXY8mwouh1TirzT/mt9/wDRIwuocbbCewAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="2"
+        title="2"
+        src="/daily-study/static/336c7f585fc55ed051ef485edaf3d585/fcda8/2.png"
+        srcset="/daily-study/static/336c7f585fc55ed051ef485edaf3d585/12f09/2.png 148w,
+/daily-study/static/336c7f585fc55ed051ef485edaf3d585/e4a3f/2.png 295w,
+/daily-study/static/336c7f585fc55ed051ef485edaf3d585/fcda8/2.png 590w,
+/daily-study/static/336c7f585fc55ed051ef485edaf3d585/efc66/2.png 885w,
+/daily-study/static/336c7f585fc55ed051ef485edaf3d585/c83ae/2.png 1180w,
+/daily-study/static/336c7f585fc55ed051ef485edaf3d585/a9577/2.png 1784w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h3>IAM Policy</h3>
+<blockquote>
+<p>Policy를 정의할 때는 어떤 IAM Principal이 어떤 Condition에서 AWS의 어떤 Resource에 대해 어떤 Action을 허용/차단 할것인지를 지정한다.</p>
+</blockquote>
+<h3>IAM Policy의 종류와 사용 목적</h3>
+<p>다음과 같이 크게 두 분류의 정책이 존재한다. 하나는 사용하는 쪽에 정책을 정의하는 것이고, 다른 하나는 사용되는 곳에 정책을 정의하는 것이다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/b480a25cdbd7fa956bcfe31f2d83aace/764d7/3.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.67567567567568%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB8ElEQVQoz21SXU/cMBB0vh3biZM4n+ckvuOuqECFiuCBPtBSJNTHtv//xwzrnFoJtQ+jXcvW7MyO2e3tZzw+fsHT01fc3d3j+voTXl9/4NfP37i+usHL9xc8f3vGw/0DGGN/EbDgXf8HzNkJ8zTAzTtcuBm9qSHSGDyJwOMQaZLQQ4Y4imGtxTTtYEyLuqpRlnpDRX2ei/MA2xWYGoVd66vc0JcZ2pJjqDiSiAiDGFmSYmq7DbUqoDKOgufQuURJZB4ZDWVuqLAOGktfYfbkpqSqcWEN3GRwtDUu1xajoXs7w60r3LJinZetHvYHHNweHanmaQbWaJKtJJSgKVJCFwpaCTpzVNQXVL0VledYyK7tR7RksasbNGTXw/YDBDkIveWjWzDQ3ppSoiIiQRY4l1tVskCWnQkFFxi7HoLOIiW7dC+pz0mVlop2niLyodzse1ytBh/mBh8Xg3U0RJy/S9QjjZNN4ZHsTW1Pbwq0uiIxLQzVyAcXhGCnuYMjktPSw+/TBzIQsijcvkHIwi3llMKZya7bWQqsghZyI603lHRWZ8K1U3B9AUtBTCanVNk/6jzCOMIwjRC0ayEFiqJA5b8MqasJhnbqB7Ng+5hnzHGNKdbYRWQl0jglA45xj8tkxD5u4Qg1E9iHBgXj/xkc4A2g4+yZsMC0lAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="3"
+        title="3"
+        src="/daily-study/static/b480a25cdbd7fa956bcfe31f2d83aace/fcda8/3.png"
+        srcset="/daily-study/static/b480a25cdbd7fa956bcfe31f2d83aace/12f09/3.png 148w,
+/daily-study/static/b480a25cdbd7fa956bcfe31f2d83aace/e4a3f/3.png 295w,
+/daily-study/static/b480a25cdbd7fa956bcfe31f2d83aace/fcda8/3.png 590w,
+/daily-study/static/b480a25cdbd7fa956bcfe31f2d83aace/efc66/3.png 885w,
+/daily-study/static/b480a25cdbd7fa956bcfe31f2d83aace/c83ae/3.png 1180w,
+/daily-study/static/b480a25cdbd7fa956bcfe31f2d83aace/764d7/3.png 1782w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/04bd8950d3130474c8026781c3b5ae04/e92cd/4.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52.70270270270271%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB+0lEQVQoz3VSy1LbQBBcabWynl5JlgpLtiyRsmxjwMEV/IJTEhI+IARy50DBHwQO+YmkknxtZ7R24YTAoWtmt3Z6uneGnZ19wHK5wunJKfb3D7BaneDq8gqL+QLz2Vzdn388R6fTBWMMOtOh6QTBISwTwm5Ap1wzuIoskRLSdtDym2hatsrjpoRLued6Cg7dGdxQhBrTwKhYBgFGwz1U1RCdPIemaeCuWb9hMA2BrN2GR4XrIgZOYE9QkynUhL5Ef1xgcNBDmWUQ1FC3BZiUARZkbXY8w3KxRK9XKEJTI1tkT38G3BSqQZQ76I0kIp3IahG1Qk3nyLo5CiIa741RN3hJ4aNSYSilwjRgmPxRPXeI0Cep+cbq9GiKsthVeWV28TO5x4/0K34NvuF7fo/fyQMeomtYDVu9SQof5ShEbFlrwlrhVIZ4F8VIaRALmujb6TEyq4GMR7iVn3ETXuA2/YKb+AJ38hKfvPcwzYYilImNds+HpxtbhU/tNAghF8r2S5Z1c01gkyLLFWrC9dmoFRZFqf6ujlW/wuHkNQJSy9U/8mehi/UKxbsu+pMIobFZKZti6LhIiCCwXQSUh44Hl/51PRRtuyob1IW256IVtpDstNBOYyQyQrqTwo2a/1veQvvL9r+EfigxPjrEq0GFblnSPg4xeTNFmCX4A/MTBz7XgmqNAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="4"
+        title="4"
+        src="/daily-study/static/04bd8950d3130474c8026781c3b5ae04/fcda8/4.png"
+        srcset="/daily-study/static/04bd8950d3130474c8026781c3b5ae04/12f09/4.png 148w,
+/daily-study/static/04bd8950d3130474c8026781c3b5ae04/e4a3f/4.png 295w,
+/daily-study/static/04bd8950d3130474c8026781c3b5ae04/fcda8/4.png 590w,
+/daily-study/static/04bd8950d3130474c8026781c3b5ae04/efc66/4.png 885w,
+/daily-study/static/04bd8950d3130474c8026781c3b5ae04/c83ae/4.png 1180w,
+/daily-study/static/04bd8950d3130474c8026781c3b5ae04/e92cd/4.png 1778w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h3>IAM Policy의 구조</h3>
+<p>이 구성요소는 필수사항이 아니다. 단, 항상 암묵적으로 Deny를 유지함을 기억하자!</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/f9b9cc4a74d8d60a4dab6965da0bff75/e92cd/5.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.75675675675676%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABzklEQVQoz5VT2XKjQAzkPg2Ew4AZTjtVcarifcg+Jv//W52WIK593QfVyELTanWPrWVZ8fn5Fx8fD9zf7pinGe/3d6ysW5b1/9GdWyzjhL5tcduuuHQ98w7TZUASRogZSRQjjRM9f0PqnuPCsWy4tvMMK3A9tE2LnkBRED4nvQQR6pcSLQfOHKhhxmduODDyAwXxieETXMLKkxR/uOI8LzCDQczpAlglJ6xcv23OuJK5gKzsEUkWxkDAjbI0VQ2b/QosgLEfYukNjDEKOJKF7/koOGhhPvLixPpyMNzmVQdJTX5n7PMIJpsGAugS/T6ueDweakae5TvDuFApmrrG6+0VonVTNypBTVZyZqdMex0C2tRSGTosLJz2/fWN2/WmH6SpTDMaY9DVXJmrtlWDVAyhGWkYI/IC+LZLVt7Bbg9L9o+iBGdqJcaEhzFNelLdShozDqPqN5mJudFcGEuvK6wOlrqyOBT+4+7T5XQ3RS6KXqa/4CLP6dBukwEcVOYFmSe6rgKGYj0T+5iy67G7fF03DAQSppPZWYqzYpx8E7flD1CXlUqlK1fy1riuPNzfRypnwEFn6iYM5UJBszoxqaw1cmpcnHKty0Ye9ZS7P4nBA+51KDOWAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="5"
+        title="5"
+        src="/daily-study/static/f9b9cc4a74d8d60a4dab6965da0bff75/fcda8/5.png"
+        srcset="/daily-study/static/f9b9cc4a74d8d60a4dab6965da0bff75/12f09/5.png 148w,
+/daily-study/static/f9b9cc4a74d8d60a4dab6965da0bff75/e4a3f/5.png 295w,
+/daily-study/static/f9b9cc4a74d8d60a4dab6965da0bff75/fcda8/5.png 590w,
+/daily-study/static/f9b9cc4a74d8d60a4dab6965da0bff75/efc66/5.png 885w,
+/daily-study/static/f9b9cc4a74d8d60a4dab6965da0bff75/c83ae/5.png 1180w,
+/daily-study/static/f9b9cc4a74d8d60a4dab6965da0bff75/e92cd/5.png 1778w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h3>권한 할당 원칙</h3>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/c238433dcdc305e1fe82884eaafea6cf/71c1d/6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.16216216216216%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACEElEQVQoz2VTS1MaQRCefbALu2Atr/BeQGARk62AWB4CYtQCUXJMVaxK5ZC7j1ilZU6e/BnJKbfkR37p6WEV5dA7Pd9+83VPd4/otDuYTWcYj8Y4/HiI3eEuDiYHvOayOWz3tvnf/niC8F2IQX+AZqNJ+32MPozQf9/HcGeIul+HEAIik86g3WqjUW8g6ASoVqool8ooFopIxBPI5/KolCu8LxXL6AZdWktshTcFxjebm8xhweVnzUzDWMNcx1nDrFiMuCb7mtAg5EfX9CeTe0lIug77TFpiNz+usZFMLQMqkdl0irP5KfuGbijBKJoSUNm58fiKoMLubm+RcpPPh2mdn8zx6WyxiimhiKCMsk04z9dgso7ri8una0f846MjzGcnLwVr1Ro67QAxXVCxDUxyOh4sC37NJwGXyV5qA39//cbgbQiXspTlkfj9xRV+kiUJW5ZBcMtl93QZxRQoWgbGJOh5HizL5oMOdfzx8QGdVgtx8qPMz798xrev5zwRHGS1hiLyNUr9VUd108Ti8juyxQJilImmKW44nWBvMYUpGxoJrhofJrJj21AToLCUq+HfnxBb7TwMw6Z6qUD3N1XcXQXkO8R9NYeRYMKO0yvJrjRKI0Eb8+M0Mp68rs7TIISBvR0PgzBNfkxh8pC0aAalgHwFva0e7GX9NG6cT7XuoVarvxh03w/oKXaJazH2H/bbJQQwYe5CAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="6"
+        title="6"
+        src="/daily-study/static/c238433dcdc305e1fe82884eaafea6cf/fcda8/6.png"
+        srcset="/daily-study/static/c238433dcdc305e1fe82884eaafea6cf/12f09/6.png 148w,
+/daily-study/static/c238433dcdc305e1fe82884eaafea6cf/e4a3f/6.png 295w,
+/daily-study/static/c238433dcdc305e1fe82884eaafea6cf/fcda8/6.png 590w,
+/daily-study/static/c238433dcdc305e1fe82884eaafea6cf/efc66/6.png 885w,
+/daily-study/static/c238433dcdc305e1fe82884eaafea6cf/c83ae/6.png 1180w,
+/daily-study/static/c238433dcdc305e1fe82884eaafea6cf/71c1d/6.png 1536w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/033ac85259803d8a7bc7a355d76db49a/bf8c1/7.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 54.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACIUlEQVQoz1VTzU5TQRidO3P/em+92NZyaVpuf6UktpQSwV6lpVK4BGhAY0wUjEoT2Lhgo1sT1ybGRNP4AkYfwLj3CXTlwq07X+I4My1Tupicb/6+850535BgPsD+Xh9RtIPeZg8bnQ20brVQq9VQLBRxt7uJMLyNTruD9TvrIISAahQa0WQs8GKIOTENE67jIu7G5XBiDmzLlij2xDB0Q84dx5lcHCeTyAkoVSREHaCaxhPouLxWKZWQzWSm1pYbDSQTSVXthICjyHohwdR12KYJxtl0xuShe4cHCFstGYtqBZ6dnqJSLqtEfreK5Zd7IDadrlAjOhgTl0TpI+bdaB83m2tjaYbEp09OUMiXZMw8F+c/PuDdv29oDrZBxNukUmn41+IIfIZ8xkI2zZCd1ZGIEdx/3EE3qsl4fs7EVY7PXxxiZTWARwmaWxUMfw3x+udHHH96BWKZFma8GW6MDddm8FwTMZPCsUeSewddtKMQcctQaw9PHqCxegMWj3ONAMPfX/H2zxc8en8+LZlRnb+TJSVrY8n93T7CtVDtCxw8G+B6eUHdO/v8BsO/31Hs1qdNYdrIDOE2o6NqdqJtrDSbMhbtI/D46AhBEKiEdi4Bv60IJhUK6XO+r1pBZzpy2Sxm0+mxUSOni/kCUsnk2CiuxuDklBdhckLR1N4VT7KnkilUF6qyUSUzb/Cl+hLqtbpqGfHmi9VF5IP8pZ8yafL/re4YPgXo5pkAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="7"
+        title="7"
+        src="/daily-study/static/033ac85259803d8a7bc7a355d76db49a/fcda8/7.png"
+        srcset="/daily-study/static/033ac85259803d8a7bc7a355d76db49a/12f09/7.png 148w,
+/daily-study/static/033ac85259803d8a7bc7a355d76db49a/e4a3f/7.png 295w,
+/daily-study/static/033ac85259803d8a7bc7a355d76db49a/fcda8/7.png 590w,
+/daily-study/static/033ac85259803d8a7bc7a355d76db49a/efc66/7.png 885w,
+/daily-study/static/033ac85259803d8a7bc7a355d76db49a/c83ae/7.png 1180w,
+/daily-study/static/033ac85259803d8a7bc7a355d76db49a/bf8c1/7.png 1722w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>항상 Deny가 제일 강하다! Deny는 명시적으로 작성될 수 있고, 묵시적으로 적용될 수 있다.</p>
+<p>기본적으로, 모든 Resource는 묵시적으로 Deny이므로 해당 Resource에 대한 사용이 명시적으로 Allow 되어 있지 않다면, 그냥 Deny된 상태라 보면 된다.</p>
+<p>IAM은 Policies Lookup 할때, API에 해당하는 모든 Policies를 확인한다.</p>
+<p>만약, Permission Boundary에 대한 정의가 존재하는데, 특정 Resource에 대한 내용이 없다면 묵시적 Deny라고 보면 된다.</p>
+<p>즉, 모든 Permission에서 사용하고자 하는 Resource에 대해 명시적인 Allow가 존재하면서 Deny가 없어야만 사용이 가능한 것이다.</p>
+<p>다음 예시처럼, Permission Boundary와 Permission Policy가 모두 존재하는 경우에, 한쪽만 사용에 대한 Allow가 있다면 Deny가 없더라도 묵시적 Deny에 의해 사용이 불허된다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/71aabbe4dbd433843eaf7a6f51907774/2d912/8.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 53.37837837837838%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABrElEQVQoz4VS227TQBTc+65jO3F8jUPibQMphL60CFUgkQoJ/v+XhrPrOErTVjyM9uKzc2bGhx1/HfF8fMbTj5/4/ecvvn1/AmPsXXDGCdM6gl2c2ePDI+4PX3FblrhblvBZhjxJsNt9RN+tUJUV6qpG27Rw1p2I+RtNToRd22E5X6CjD1uCJ6xmCwybAW3bwg8+4sbfwJqR0BmOxDACh1EvyZnkEporVLpA40iNLVGzHPLKqpKSCC3SxMKvc3waFvB9hmVuIIWClgpGa7DQeb+/Q1VXKKsSaZaCSxHlCy4QGwqBsihw+HLAhpQXRYUsK2BMEu2Lk93EWjDBqFjPkcsZLNMwhOt8NKkTPDxQWDczsiqROkF3U824BgcsbJYyhzc91qaJ6HUdYxiLRSSUYlTx2WfYDxl2mxT7bYqusucf4oLCsFnIDK0q0RG2ZhX3lhsE9ZNCRTGEBv3c4AORrBuHTeswn+mzk0hotY12NVNQjILnGo7IDK2SzhMhJ8spkTZCwsXcXs+nnRT+b5ADYQhcKxXzEhdzdznYUeH1YL6FQGiUOj9k79Q5Y/AP6q/xRO80PAkAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="8"
+        title="8"
+        src="/daily-study/static/71aabbe4dbd433843eaf7a6f51907774/fcda8/8.png"
+        srcset="/daily-study/static/71aabbe4dbd433843eaf7a6f51907774/12f09/8.png 148w,
+/daily-study/static/71aabbe4dbd433843eaf7a6f51907774/e4a3f/8.png 295w,
+/daily-study/static/71aabbe4dbd433843eaf7a6f51907774/fcda8/8.png 590w,
+/daily-study/static/71aabbe4dbd433843eaf7a6f51907774/efc66/8.png 885w,
+/daily-study/static/71aabbe4dbd433843eaf7a6f51907774/c83ae/8.png 1180w,
+/daily-study/static/71aabbe4dbd433843eaf7a6f51907774/2d912/8.png 1772w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/6b6e1f76692e22d5ca7a73219cd9fe21/6c86f/9.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACAElEQVQoz21TTW8TMRD12hvvbjYfNMlWS5J+5JOWpkmjtJBwgAZFUako5UDVUsoWGkQPFaee4AwXkIBe4T9w5MpP4T8gJI4P21svG4nDaJ5HM2/meWxiMhMzV2aQclNIp9LKZzNZyLhBDBBClGn8vxgTnhlUn8lUAjdNxGP1Wg3lYikspEz51VYL+VxOYSqI/uULQkmiTZLZnItCKiYMi3cf7ODWYKBwwkwoP5lM0KjXI6KdXB4XKy1kwnO8CwNjibATCWPDuyN0u90pwmdHARrVmsI5Eft5dgZ8/IQ3ayLPTbpCVhPpJMWCzzHvWyh5DOVZjhQneP3qBI/u76pinuDh1Md7qFyrKnzb9/Hr/Qf8OT/H9+AYZHlpGTc2bmKuXIRrM2RcDseiAod3+eLJAYL9AzhOMrrDh8EeOhtrCq8XPPz+fAG8fYdvR09BpAy5UWoIudQUU1hKsnEpeTQao9/vKyzzpD8JnmOp0Qxjwn68PAW+fMV+vTG9Zb0MahjRNFvjMdZ7vSnJh48PUVlcjOp6loNT/yocvRRt2XQGs54XLUn6UrEIr1CIcuSUkix6NkKNfTmpJeuS4m7kg5YT5cX6m0KKJnRsB512B+3VtsIyLpcocxbm5mOPW5toWq1UsXK9Bduyown0D5A/aLg5xPa9bQz6A4U37wxVbvznxO0vD5AWxDG8uAsAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="9"
+        title="9"
+        src="/daily-study/static/6b6e1f76692e22d5ca7a73219cd9fe21/fcda8/9.png"
+        srcset="/daily-study/static/6b6e1f76692e22d5ca7a73219cd9fe21/12f09/9.png 148w,
+/daily-study/static/6b6e1f76692e22d5ca7a73219cd9fe21/e4a3f/9.png 295w,
+/daily-study/static/6b6e1f76692e22d5ca7a73219cd9fe21/fcda8/9.png 590w,
+/daily-study/static/6b6e1f76692e22d5ca7a73219cd9fe21/efc66/9.png 885w,
+/daily-study/static/6b6e1f76692e22d5ca7a73219cd9fe21/c83ae/9.png 1180w,
+/daily-study/static/6b6e1f76692e22d5ca7a73219cd9fe21/6c86f/9.png 1720w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h3>계정에 따른 권한 획득 조건 (동일 계정)</h3>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/8a5cbb0d4c9f4db7897bd4f81534a824/27f8b/10.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 54.05405405405405%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACX0lEQVQoz11TTW8SURR982aY4WOgzAcDMzAMFsQSBjpCKxawKWlMjdbQRTd+pFQXxqhNbaIxmDR1YVyaaIyJG12ZuDBx4caN8Ue48Te49QccHw9KShc37+R9nHvvuecRK2Wht9ZDsBig0+6g2+mi2WiislBBcb6IUrHE95aXlvk5IQRUoBCIMI3R3vFKFFlB3s3DsZ3pmrYspEwTWjLJQoPnedA1HV7eGz86FSMyKrIkAiedPZREia9BPUAyoXGcdXIozZc4DitRrFxoQxRDkOUwKJVmE/CyWQuyRKFGRFiGyg/uPdqFXz/L8eUrq9javsqxY+t48nwfnYsNVCtFaKoCOS7AuxFAyiZGhGNmNSIgZ0kouir0KMGtB5totDyoAiPsN9G/uQqVElTKBvaOBsinZdgGhR4m6B9ew5u/n7H1fg9EpKwqNhjCRRUQicR4gp2dXRQKRY6rfh3nG0scK6zl9kp30uJ4EAffXuPZ748Y/nwHMtLMr/pMWMovRCeEtwcDuHwIAnxGWPMXIYfCiIRjaHcvTcjYG1b18PtbvPrzBUe/PoCYholeb51pF4NrUZQLcZgqweDhJpotF1aCwHNknMkqsHWCWjWFgxcDZDQ2rBSFEWHdvNzG138/cPfTIcjIKr5fg51Jg7LKkokor/DO/QHKlXHLsiTwGOlt2yk8Hu6jkM/BzdnIOzYMV8fa0+vQFuzxlI+tIjILmIbBcbvVZjh1QquxXnE1gY31DX5XZO8kUWb2CcE5F8Wcqcz6MDmXRBAETCsZmqYhFotNjSuc/A2njc0MrWVUyGEJ/wF7vyQQqg2qKAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="10"
+        title="10"
+        src="/daily-study/static/8a5cbb0d4c9f4db7897bd4f81534a824/fcda8/10.png"
+        srcset="/daily-study/static/8a5cbb0d4c9f4db7897bd4f81534a824/12f09/10.png 148w,
+/daily-study/static/8a5cbb0d4c9f4db7897bd4f81534a824/e4a3f/10.png 295w,
+/daily-study/static/8a5cbb0d4c9f4db7897bd4f81534a824/fcda8/10.png 590w,
+/daily-study/static/8a5cbb0d4c9f4db7897bd4f81534a824/efc66/10.png 885w,
+/daily-study/static/8a5cbb0d4c9f4db7897bd4f81534a824/c83ae/10.png 1180w,
+/daily-study/static/8a5cbb0d4c9f4db7897bd4f81534a824/27f8b/10.png 1730w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>위에는 요청을 보내는 쪽에서 허용하는 방법이고, 아래쪽은 요청을 받는 쪽에서 허용하는 방법이다.</p>
+<h3>계정에 따른 권한 획득 조건 (다른 계정)</h3>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/daily-study/static/4894dc5c1a1485aab193caf197ec9f36/e7aec/11.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.75675675675676%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACsUlEQVQoz1WTyU4UYRCAu3umZ+lZepaGWRlsZEZoFGRUQMGFqBdjYqIHITggDBkZEFwgRIxGo7gmLvGgJnBwCx70pEcPvoLxok9g4lN81gwY9FBd9VdXfV31V7WSyWQZPDRIz54eent6ObD/ILuKuyh2d5FJJ2lvK8h5JwP9e+nc7qAoioiKomrrWs5qXa/bis/rI51Kk0wkSSVTWHGLaCROLG4TDKYJhtKYkRyJZCummZMkH4bAQpIcFtE34JqmbYDrX9wUt1bTEdo6F1GNSYLWFC3tC+Ibwdl5FcUcZkDibts2l02TLf/k1oG1h6au0z26jt/rkpcNTM+9xrBmaXGWKJVXxDfG3KU1jHSZPkn+MH6Wu9s7SIkd6LPJTwyguJT/K1RVN7q7djcWlXNv8ERmyeWXGD6zKr5RqtU1vI1ldteAo+Pc2tpGTiCVr095/PszzmmB6m6dxsYkhlclbXnINLiJRywm5pfJtpTZ0TfN0NRNjPAQk4v3yBSGOaYqrFZPcK2rieN7m3n4/QW3vr1k6Pk8iuE36NzRhcetEg3pxE0XAb9F6eID4tkKheIspybvoPpGODv/iJhd4rBUuFI5yZKT40hXlic/3vHk5xpDzy6i2Fts+vf1Y/gD0pYm9+iqt3yu+hZvdI7mwlVGRtdbnpl5jy8xyR4BfhydYDnvkBF7+tNjVn59ofVoESUre5jPF4iYERmMIkC1DixPreKLzQhwkdOl5+I7Q6X6Cl9ynF6Je18qsew4JMUOdaRoP1X8O4vNoYSCIdlDE9WVoCm/KEM5j5m4QMpewB2eptW5hhYdY1Bi78vaLEWjNIvtj3mxO8Lote5qi+33+etr02A11v8MzWXJ/lUIxCsU+67jdF+hoek83T03iDWNccClc7NtGwuZDLlaMR43gbC3XtQf6i9LMpQ1eAoAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="11"
+        title="11"
+        src="/daily-study/static/4894dc5c1a1485aab193caf197ec9f36/fcda8/11.png"
+        srcset="/daily-study/static/4894dc5c1a1485aab193caf197ec9f36/12f09/11.png 148w,
+/daily-study/static/4894dc5c1a1485aab193caf197ec9f36/e4a3f/11.png 295w,
+/daily-study/static/4894dc5c1a1485aab193caf197ec9f36/fcda8/11.png 590w,
+/daily-study/static/4894dc5c1a1485aab193caf197ec9f36/efc66/11.png 885w,
+/daily-study/static/4894dc5c1a1485aab193caf197ec9f36/c83ae/11.png 1180w,
+/daily-study/static/4894dc5c1a1485aab193caf197ec9f36/e7aec/11.png 1726w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>서로 다른 계정의 Resource를 사용하기 위해서는 길이 하나 존재하고, 모든 요청에서 Allow가 되어 있어야 한다.</p></section><hr style="margin-bottom:1.75rem"/><footer><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEz0lEQVQ4ywHEBDv7AHXC64jI7LHh+1N5jkhGRWBgYF1cXFtaWVVWVV1dXVhYV1dXV0tKSkZGRkhHRj1BQ3CctLTi+3vD6n/G6wCb0vB1w+2GwuJHTlNOTUwqKysKDA0HCQoNDg4iIyMKDAwEBQYAAAACAwNHSElDQD5Xb3uH0fiAxeqs2vMAk8/uk9HxbrjgSlliGBYVKygme2xlPzMuKSIfCQcGHhgWNywoeGRdh3p0DAwNPDc2Sml5hszyodTwicrtAH7F6ovQ9XOtyy8zNhkXFdjJwP/n1/7Ww/nMu9u0pO/Esv/VwvzVwf/x4nlxbBAODVZkbIvJ6oDH7YHH7ACAxeuDzPNyrMsbHiB2b2n///n81sP8z7v80L3/1sL/1sL/08D91sH/6Nbh3NIfGhdCUlx2wemDyO6V0O8AdcHqe8buer3hJS0xfnJss6GYqIp99Mq48Me19sq437am5byrqo2AYE9Jm42GKiMeRGFxhs71lc/tndTwAHjC6nfD7HrM+BszQIx6cpByaUcwK0s4M19LQ/zQvpt9cUQvKWZKQ3VPRsKlm0tBPC5LW5fc/4rK7HvE6wCW0vN8utxofIgoMjeomZHj0cpCMi5cTkmqiH7guKj7yre4loxBMy9sX1z35dxvZ2EtMDFqiJd2weqMy+4AhM71baXDnn9xfGxk18W8//r1gn58oJuY79TIzaOT/9bC+ePafHd2pqKg///6pZiRjnZskIF7e7jYlNLzAJXU9nSvzqOMg4x0a8i7s76nnMGhlejDtNKhksOUhf/Sv/HGtOO/sLWWitfBtbaqo45vZJaQkGy54XzG7QB5xOp4xu9VaXaFaFy4q6P/3s/6yrf/2MTMno/Zqpv+zrv90r//07/6y7jz1ciunpZsU0ljhpmO0veSze0Ac8DpeMXvcbjeX3eEjYuI/+PV+Mm38ce27sSz4rOi+cq468Oz7MKx/M+9/OTYd3d2Y4aYd8Lqfsbte8PrAI3M7ovK7YTJ73TJ9mOLoejLuv/k0cymmby1s+Xe29nW1aOYk+G1pP/m1dnDtl2QrXzN+YXI7YrK7Y3N7gCLzO59xex2wel/xut3vuR0kJ/awLP/4M3txrbjvLDow7bzzLr/5NLexLh0jpt0vuZ5w+l4wuqAxuyKy+4AdsPrhMjtjsztis7yc8DpZbXhU4ejmpOQ78u79s+/+NDA7cq7mZSTUYKcYK3Wcb7ofMjwd8LqdsLrdcHqAJ3U8JjQ74zP82OhwnaKlZagpYCVoGFiZLmZjaqOhLGSiKuRh0tXXZmqtJ+nq3OIkm2ry4TM83rD6nrE6wCY0O+LzfBstt6Ekpne4eHU3uLP2t6Olpinin7GnI3BmoyUgnuhr7TV3+HS3eHr5+VyipaIyeuJy+5+xuwAhcjrg830davHt7q8vM7Voba/qb7FrsLKkqSsiJmei52jnrO6r8PLp7vDnbS83+jrm6WqZa3UpNr2jsztAIbI66re+XqtyK61ucLR163Ax7DDyq/ByLbIz7bJ0LbJ0LTFzK7Ax7LEy6i8xNzm6qerrXS114HK8avZ8gCx2/KX1fdbn8O0ubvD0tiqvsavwsmvwsmuwciuwciuwcivwsmvwsmww8qmu8Lc5umhqKyMv9uMz/KBxuxlsPqt75PSNgAAAABJRU5ErkJggg==" alt="Sukjae" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/daily-study/static/5b79357028bc414b699d03ddda57c065/8ba1e/profile-pic.png 1x,
+/daily-study/static/5b79357028bc414b699d03ddda57c065/f937a/profile-pic.png 1.5x,
+/daily-study/static/5b79357028bc414b699d03ddda57c065/71eb7/profile-pic.png 2x" /><img loading="lazy" width="50" height="50" srcset="/daily-study/static/5b79357028bc414b699d03ddda57c065/8ba1e/profile-pic.png 1x,
+/daily-study/static/5b79357028bc414b699d03ddda57c065/f937a/profile-pic.png 1.5x,
+/daily-study/static/5b79357028bc414b699d03ddda57c065/71eb7/profile-pic.png 2x" src="/daily-study/static/5b79357028bc414b699d03ddda57c065/8ba1e/profile-pic.png" alt="Sukjae" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>Sukjae</strong> <!-- -->who lives and works in Seoul building useful things.<!-- --> <a href="https://github.com/sukjae">You should follow him on Github</a></p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/daily-study/daily/2019-11-26/">← <!-- -->Elasticsearch 기본 정리</a></li><li><a rel="next" href="/daily-study/daily/2019-12-05/">TS에서 any대신에 $TSFixMe<!-- --> →</a></li></ul></nav><div></div></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/online-conference/aws-iam-policies/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-c596542a5a5e83429a3e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-2070063ae60c40f033a9.js"],"component---src-pages-404-js":["/component---src-pages-404-js-9188ab7ba8aa69c319f6.js"],"component---src-pages-index-js":["/component---src-pages-index-js-1395c6038b4adbd90073.js"]};/*]]>*/</script><script src="/daily-study/component---src-templates-blog-post-js-2070063ae60c40f033a9.js" async=""></script><script src="/daily-study/commons-ffc460fc2e63c06b1fcb.js" async=""></script><script src="/daily-study/app-c596542a5a5e83429a3e.js" async=""></script><script src="/daily-study/styles-75baeee0277d57793d8c.js" async=""></script><script src="/daily-study/webpack-runtime-4bc0ab10304fecde3760.js" async=""></script></body></html>
